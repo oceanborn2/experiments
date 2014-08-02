@@ -1,9 +1,7 @@
-package basics
-
 class Implicits(s: String) {
-  def upper() = { s.toUpperCase() }
-  def lower() = { s.toLowerCase() }
-  def reverseMe() = { s.reverse}
+  def upper() = { s.toUpperCase }
+  def lower() = { s.toLowerCase }
+  def reverseMe() = { s.reverse }
 }
 
 object Implicits {

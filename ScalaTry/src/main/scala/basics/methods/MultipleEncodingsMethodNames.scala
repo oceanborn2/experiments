@@ -1,3 +1,5 @@
+package basics.methods
+
 object MultipleEncodingsMethodNames {
   def méthode(s: String) = {
     println("é:" + s)

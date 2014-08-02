@@ -16,7 +16,7 @@ case object Manager extends Role
 
 case class Person(name: String, age: Int, role: Role)
 
-object CaseClass1 {
+object PatternMatchingOnObjects {
 
   def main(args: Array[String]) = {
     val alice = new Person("Alice", 25, Developer)

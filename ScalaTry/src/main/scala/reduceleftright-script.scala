@@ -1,4 +1,3 @@
-// code-examples/FP/datastructs/reduceleftright-script.scala
 
 object Reduce extends App {
   
