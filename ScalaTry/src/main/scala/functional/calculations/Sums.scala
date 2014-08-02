@@ -52,7 +52,7 @@ class Sums {
 
 object Sums {
 
-  def checkThatSum(expectedSum: Int, intList: List[Int],  sumFunc: List[Int] => Int) {
+  def checkThatSum(expectedSum: Int, intList: List[Int],  sumFunc: List[Int] => Int) = {
     val sumOf = sumFunc(intList)
     assert(sumOf == expectedSum, "dommage")
     sumOf
@@ -66,14 +66,13 @@ object Sums {
 
     val sumUtils = new Sums()
 
-    println(sumUtils.sumRecursive(intList))
-    println(sumUtils.sumWithMatchList(intList))
-    println(sumUtils.sumWithFold(intList))
-    println(sumUtils.sumWithFoldAndNamesParams(intList))
-    println(sumUtils.sumTailRecursive(intList))
+    println(checkThatSum(55, intList, sumUtils.sumRecursive))
+    println(checkThatSum(55, intList, sumUtils.sumWithMatchList))
+    println(checkThatSum(55, intList, sumUtils.sumWithFold))
+    println(checkThatSum(55, intList, sumUtils.sumWithFoldAndNamesParams))
+    println(checkThatSum(55, intList, sumUtils.sumTailRecursive))
 
     val sumToTwenty = sumUtils.sum(twenty)
-    println(sumToTwenty)
     assert(sumToTwenty equals 210)
     assert(sumToTwenty.equals(210))
     assert(sumUtils.sum(twenty) == 210)
