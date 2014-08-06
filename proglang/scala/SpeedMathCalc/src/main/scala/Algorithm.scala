@@ -1,0 +1,6 @@
+trait   Algorithm
+
+class Rule {
+
+}
+
