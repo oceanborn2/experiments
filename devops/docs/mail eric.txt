@@ -1,18 +1,18 @@
 
 *Ansible
 
- Ansible est un outil permettant de pousser des configuration au travers de ssh. Les configuration sont regroupées au travers d'un playbook
+     Ansible est un outil permettant de pousser des configuration au travers de ssh. Les configuration sont regroupées au travers d'un playbook
 
- points importants:
-   - la configuration est poussé a chaque run d'un playbook
-   - ne nécessite pas d'installation particulière sur les machine administré
-   - tout se passe au travers de ssh
-   - le format des playbook sont des fichier de configuration + template
-   - il existe plein de playbook (galaxy)
-   - ecrit en python
-   - les dernière version commencent a supporter windows
-   - Très bonne documentation
-   - Projet qui monte
+     points importants:
+       - la configuration est poussé a chaque run d'un playbook
+       - ne nécessite pas d'installation particulière sur les machine administré
+       - tout se passe au travers de ssh
+       - le format des playbook sont des fichier de configuration + template
+       - il existe plein de playbook (galaxy)
+       - ecrit en python
+       - les dernière version commencent a supporter windows
+       - Très bonne documentation
+       - Projet qui monte
 
 
 *Puppet

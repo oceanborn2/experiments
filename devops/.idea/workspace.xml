@@ -2,733 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65fc7997-3a3e-44c4-9334-7a603c09369e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/mail eric.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docs/man/man3/.gitdir" afterPath="$PROJECT_DIR$/kits/ansible/docs/man/man3/.gitdir" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/modules/.gitdir" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/modules/.gitdir" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/.nojekyll" afterPath="$PROJECT_DIR$/kits/ansible/docsite/.nojekyll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/callback_plugins/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/callback_plugins/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/inventory/vars_plugins/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/inventory/vars_plugins/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/modules/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/modules/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/connection_plugins/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/connection_plugins/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/filter_plugins/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/filter_plugins/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/shell_plugins/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/shell_plugins/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/module_docs_fragments/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/module_docs_fragments/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/favicon.ico" afterPath="$PROJECT_DIR$/kits/ansible/docsite/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_static/favicon.ico" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_static/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_static/file.png" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_static/file.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_file/files/foobar/fileA" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_file/files/foobar/fileA" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_file/files/foobar/fileB" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_file/files/foobar/fileB" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_file/files/foobar/directory/fileC" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_file/files/foobar/directory/fileC" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_file/files/foobar/directory/fileD" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_file/files/foobar/directory/fileD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/static/font/fontawesome_webfont.eot" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/static/font/fontawesome_webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/static/font/fontawesome_webfont.ttf" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/static/font/fontawesome_webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/static/font/fontawesome_webfont.woff" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/static/font/fontawesome_webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_static/minus.png" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_static/minus.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_static/plus.png" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_static/plus.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_static/subtle_dots.png" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_static/subtle_dots.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/.gitignore" afterPath="$PROJECT_DIR$/kits/ansible/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docs/man/.gitignore" afterPath="$PROJECT_DIR$/kits/ansible/docs/man/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/.gitignore" afterPath="$PROJECT_DIR$/kits/ansible/docsite/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/packaging/macports/.gitignore" afterPath="$PROJECT_DIR$/kits/ansible/packaging/macports/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/.gitmodules" afterPath="$PROJECT_DIR$/kits/ansible/.gitmodules" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/inventory_dir/0hosts" afterPath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/inventory_dir/0hosts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/inventory_dir/1mythology" afterPath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/inventory_dir/1mythology" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/inventory_dir/2levels" afterPath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/inventory_dir/2levels" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/inventory_dir/3comments" afterPath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/inventory_dir/3comments" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/inventory_dir/4skip_extensions.ini" afterPath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/inventory_dir/4skip_extensions.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/CHANGELOG.md" afterPath="$PROJECT_DIR$/kits/ansible/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/CODING_GUIDELINES.md" afterPath="$PROJECT_DIR$/kits/ansible/CODING_GUIDELINES.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/kits/ansible/CONTRIBUTING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/COPYING" afterPath="$PROJECT_DIR$/kits/ansible/COPYING" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/examples/scripts/ConfigureRemotingForAnsible.ps1" afterPath="$PROJECT_DIR$/kits/ansible/examples/scripts/ConfigureRemotingForAnsible.ps1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/examples/DOCUMENTATION.yml" afterPath="$PROJECT_DIR$/kits/ansible/examples/DOCUMENTATION.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/setup_mysql_db/vars/Debian.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/setup_mysql_db/vars/Debian.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/executor/HostLog.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/executor/HostLog.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/executor/HostLogManager.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/executor/HostLogManager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/executor/HostPlaybookIterator.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/executor/HostPlaybookIterator.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/ISSUE_TEMPLATE.md" afterPath="$PROJECT_DIR$/kits/ansible/ISSUE_TEMPLATE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/MANIFEST.in" afterPath="$PROJECT_DIR$/kits/ansible/MANIFEST.in" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/Makefile" afterPath="$PROJECT_DIR$/kits/ansible/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/Makefile" afterPath="$PROJECT_DIR$/kits/ansible/docsite/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/packaging/port/sysutils/ansible/Makefile" afterPath="$PROJECT_DIR$/kits/ansible/packaging/port/sysutils/ansible/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/Makefile" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/packaging/arch/PKGBUILD" afterPath="$PROJECT_DIR$/kits/ansible/packaging/arch/PKGBUILD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/executor/PlaybookExecutor.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/executor/PlaybookExecutor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/packaging/macports/sysutils/ansible/Portfile" afterPath="$PROJECT_DIR$/kits/ansible/packaging/macports/sysutils/ansible/Portfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/README-tests.md" afterPath="$PROJECT_DIR$/kits/ansible/v2/README-tests.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/README.md" afterPath="$PROJECT_DIR$/kits/ansible/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/README.md" afterPath="$PROJECT_DIR$/kits/ansible/docsite/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/examples/playbooks/README.md" afterPath="$PROJECT_DIR$/kits/ansible/examples/playbooks/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/hacking/README.md" afterPath="$PROJECT_DIR$/kits/ansible/hacking/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/packaging/arch/README.md" afterPath="$PROJECT_DIR$/kits/ansible/packaging/arch/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/packaging/debian/README.md" afterPath="$PROJECT_DIR$/kits/ansible/packaging/debian/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/packaging/gentoo/README.md" afterPath="$PROJECT_DIR$/kits/ansible/packaging/gentoo/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/packaging/macports/README.md" afterPath="$PROJECT_DIR$/kits/ansible/packaging/macports/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/plugins/README.md" afterPath="$PROJECT_DIR$/kits/ansible/plugins/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/plugins/connections/README.md" afterPath="$PROJECT_DIR$/kits/ansible/plugins/connections/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/README.md" afterPath="$PROJECT_DIR$/kits/ansible/test/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/README.md" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2/README.md" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/README.md" afterPath="$PROJECT_DIR$/kits/ansible/test/units/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/ticket_stubs/README.md" afterPath="$PROJECT_DIR$/kits/ansible/ticket_stubs/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/RELEASES.txt" afterPath="$PROJECT_DIR$/kits/ansible/RELEASES.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/setup_mysql_db/vars/RedHat-7.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/setup_mysql_db/vars/RedHat-7.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/setup_mysql_db/vars/RedHat.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/setup_mysql_db/vars/RedHat.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/executor/TaskExecutor.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/executor/TaskExecutor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/executor/TaskQueueManager.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/executor/TaskQueueManager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/executor/TaskResult.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/executor/TaskResult.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/executor/TemplateEngine.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/executor/TemplateEngine.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/TestConstants.py" afterPath="$PROJECT_DIR$/kits/ansible/test/units/TestConstants.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/TestFilters.py" afterPath="$PROJECT_DIR$/kits/ansible/test/units/TestFilters.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/TestInventory.py" afterPath="$PROJECT_DIR$/kits/ansible/test/units/TestInventory.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/TestModuleUtilsBasic.py" afterPath="$PROJECT_DIR$/kits/ansible/test/units/TestModuleUtilsBasic.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/TestModules.py" afterPath="$PROJECT_DIR$/kits/ansible/test/units/TestModules.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/TestPlayVarsFiles.py" afterPath="$PROJECT_DIR$/kits/ansible/test/units/TestPlayVarsFiles.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/TestSynchronize.py" afterPath="$PROJECT_DIR$/kits/ansible/test/units/TestSynchronize.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/TestUtils.py" afterPath="$PROJECT_DIR$/kits/ansible/test/units/TestUtils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/TestUtilsStringFunctions.py" afterPath="$PROJECT_DIR$/kits/ansible/test/units/TestUtilsStringFunctions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/TestVault.py" afterPath="$PROJECT_DIR$/kits/ansible/test/units/TestVault.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/TestVaultEditor.py" afterPath="$PROJECT_DIR$/kits/ansible/test/units/TestVaultEditor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/VERSION" afterPath="$PROJECT_DIR$/kits/ansible/VERSION" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/executor/VariableCache.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/executor/VariableCache.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/executor/VariableManager.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/executor/VariableManager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/YAMLSyntax.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/YAMLSyntax.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/cache/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/cache/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/inventory/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/inventory/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/playbook/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/playbook/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/compat/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/compat/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/compat/tests/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/compat/tests/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/config/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/config/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/errors/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/errors/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/inventory/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/inventory/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/modules/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/modules/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/parsing/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/parsing/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/parsing/vault/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/parsing/vault/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/parsing/yaml/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/parsing/yaml/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/role/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/role/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/plugins/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/plugins/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/plugins/action/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/plugins/action/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/plugins/callback/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/plugins/callback/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/plugins/connections/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/plugins/connections/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/plugins/filter/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/plugins/filter/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/plugins/inventory/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/plugins/inventory/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/plugins/lookup/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/plugins/lookup/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/plugins/shell/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/plugins/shell/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/plugins/vars/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/plugins/vars/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/test/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/test/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/test/errors/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/test/errors/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/test/mock/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/test/mock/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/test/parsing/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/test/parsing/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/test/parsing/vault/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/test/parsing/vault/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/test/parsing/yaml/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/test/parsing/yaml/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/test/playbook/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/test/playbook/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/test/plugins/__init__.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/test/plugins/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/ticket_stubs/_module_issue_move.md" afterPath="$PROJECT_DIR$/kits/ansible/ticket_stubs/_module_issue_move.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/ticket_stubs/_module_pr_move.md" afterPath="$PROJECT_DIR$/kits/ansible/ticket_stubs/_module_pr_move.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/a10.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/a10.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/plugins/inventory/abiquo.ini" afterPath="$PROJECT_DIR$/kits/ansible/plugins/inventory/abiquo.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/connection_plugins/accelerate.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/connection_plugins/accelerate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/add_host.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/add_host.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/all.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/all.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/group_vars/all" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/group_vars/all" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/amazon.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/amazon.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/group_vars/amazon" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/group_vars/amazon" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_service/files/ansible-broken.upstart" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_service/files/ansible-broken.upstart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docs/man/man1/ansible-doc.1.asciidoc.in" afterPath="$PROJECT_DIR$/kits/ansible/docs/man/man1/ansible-doc.1.asciidoc.in" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docs/man/man1/ansible-doc.1" afterPath="$PROJECT_DIR$/kits/ansible/docs/man/man1/ansible-doc.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docs/man/man1/ansible-galaxy.1.asciidoc.in" afterPath="$PROJECT_DIR$/kits/ansible/docs/man/man1/ansible-galaxy.1.asciidoc.in" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docs/man/man1/ansible-galaxy.1" afterPath="$PROJECT_DIR$/kits/ansible/docs/man/man1/ansible-galaxy.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_static/ansible-local.css" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_static/ansible-local.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docs/man/man1/ansible-playbook.1.asciidoc.in" afterPath="$PROJECT_DIR$/kits/ansible/docs/man/man1/ansible-playbook.1.asciidoc.in" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/man/ansible-playbook.1.html" afterPath="$PROJECT_DIR$/kits/ansible/docsite/man/ansible-playbook.1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docs/man/man1/ansible-playbook.1" afterPath="$PROJECT_DIR$/kits/ansible/docs/man/man1/ansible-playbook.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docs/man/man1/ansible-pull.1.asciidoc.in" afterPath="$PROJECT_DIR$/kits/ansible/docs/man/man1/ansible-pull.1.asciidoc.in" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docs/man/man1/ansible-pull.1" afterPath="$PROJECT_DIR$/kits/ansible/docs/man/man1/ansible-pull.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docs/man/man1/ansible-vault.1.asciidoc.in" afterPath="$PROJECT_DIR$/kits/ansible/docs/man/man1/ansible-vault.1.asciidoc.in" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docs/man/man1/ansible-vault.1" afterPath="$PROJECT_DIR$/kits/ansible/docs/man/man1/ansible-vault.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docs/man/man1/ansible.1.asciidoc.in" afterPath="$PROJECT_DIR$/kits/ansible/docs/man/man1/ansible.1.asciidoc.in" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/man/ansible.1.html" afterPath="$PROJECT_DIR$/kits/ansible/docsite/man/ansible.1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docs/man/man1/ansible.1" afterPath="$PROJECT_DIR$/kits/ansible/docs/man/man1/ansible.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/examples/ansible.cfg" afterPath="$PROJECT_DIR$/kits/ansible/examples/ansible.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/ansible.cfg" afterPath="$PROJECT_DIR$/kits/ansible/test/units/ansible.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/packaging/debian/ansible.dirs" afterPath="$PROJECT_DIR$/kits/ansible/packaging/debian/ansible.dirs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/packaging/debian/ansible.install" afterPath="$PROJECT_DIR$/kits/ansible/packaging/debian/ansible.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/packaging/rpm/ansible.spec" afterPath="$PROJECT_DIR$/kits/ansible/packaging/rpm/ansible.spec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_service/files/ansible.systemd" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_service/files/ansible.systemd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_service/files/ansible.upstart" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_service/files/ansible.upstart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/scripts/ansible" afterPath="$PROJECT_DIR$/kits/ansible/v2/scripts/ansible" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/ansible_hosts" afterPath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/ansible_hosts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/js/ansible/application.js" afterPath="$PROJECT_DIR$/kits/ansible/docsite/js/ansible/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_apt/tasks/apt.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_apt/tasks/apt.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_apt_repository/tasks/apt.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_apt_repository/tasks/apt.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/assemble.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/assemble.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/assert.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/assert.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_variables/tasks/assert_fail_msg.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_variables/tasks/assert_fail_msg.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_user/tasks/assert_no_user.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_user/tasks/assert_no_user.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_user/tasks/assert_user.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_user/tasks/assert_user.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_variables/tasks/assert_var.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_variables/tasks/assert_var.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_variables/tasks/assert_var_output.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_variables/tasks/assert_var_output.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/async.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/async.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/attribute.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/attribute.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/module_docs_fragments/aws.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/module_docs_fragments/aws.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/bad_parsing.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/bad_parsing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/static/css/badge_only.css" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/static/css/badge_only.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_copy/files/subdir/bar.txt" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_copy/files/subdir/bar.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_synchronize/files/bar.txt" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_synchronize/files/bar.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/cache/base.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/cache/base.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/base.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/base.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_static/basic.css" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_static/basic.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/basic.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/basic.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_copy/files/subdir/subdir2/baz.txt" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_copy/files/subdir/subdir2/baz.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/block.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/block.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_static/bootstrap-dropdown.js" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_static/bootstrap-dropdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_static/bootstrap-scrollspy.js" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_static/bootstrap-scrollspy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_static/bootstrap-sphinx.css" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_static/bootstrap-sphinx.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_static/bootstrap.css" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_static/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/breadcrumbs.html" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/breadcrumbs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/broken.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/broken.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/ticket_stubs/bug_cannot_reproduce.md" afterPath="$PROJECT_DIR$/kits/ansible/ticket_stubs/bug_cannot_reproduce.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/ticket_stubs/bug_confirmed_p1_or_p2.md" afterPath="$PROJECT_DIR$/kits/ansible/ticket_stubs/bug_confirmed_p1_or_p2.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/ticket_stubs/bug_is_really_a_question.md" afterPath="$PROJECT_DIR$/kits/ansible/ticket_stubs/bug_is_really_a_question.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/ticket_stubs/bug_misunderstanding.md" afterPath="$PROJECT_DIR$/kits/ansible/ticket_stubs/bug_misunderstanding.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/ticket_stubs/bug_not_a_bug.md" afterPath="$PROJECT_DIR$/kits/ansible/ticket_stubs/bug_not_a_bug.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/callbacks.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/callbacks.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/ticket_stubs/change_applied.md" afterPath="$PROJECT_DIR$/kits/ansible/ticket_stubs/change_applied.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/packaging/debian/changelog" afterPath="$PROJECT_DIR$/kits/ansible/packaging/debian/changelog" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/check_mode.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/check_mode.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/connection_plugins/chroot.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/connection_plugins/chroot.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_apt_repository/tasks/cleanup.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_apt_repository/tasks/cleanup.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/cleanup_ec2.py" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/cleanup_ec2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/cleanup_gce.py" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/cleanup_gce.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/cmd_functions.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/cmd_functions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/plugins/inventory/cobbler.ini" afterPath="$PROJECT_DIR$/kits/ansible/plugins/inventory/cobbler.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/plugins/inventory/collins.ini" afterPath="$PROJECT_DIR$/kits/ansible/plugins/inventory/collins.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/color.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/color.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/setup_ec2/tasks/common.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/setup_ec2/tasks/common.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/common_vars.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/common_vars.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/community.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/community.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/packaging/debian/compat" afterPath="$PROJECT_DIR$/kits/ansible/packaging/debian/compat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/complex_hosts" afterPath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/complex_hosts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/parsing/yaml/composer.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/parsing/yaml/composer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/conditional.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/conditional.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/conf.py" afterPath="$PROJECT_DIR$/kits/ansible/docsite/conf.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/compat/configparser.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/compat/configparser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/connection.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/connection.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/constants.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/constants.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/constants.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/constants.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/parsing/yaml/constructor.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/parsing/yaml/constructor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/plugins/callbacks/context_demo.py" afterPath="$PROJECT_DIR$/kits/ansible/plugins/callbacks/context_demo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/packaging/debian/control" afterPath="$PROJECT_DIR$/kits/ansible/packaging/debian/control" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/copy.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/copy.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/packaging/debian/copyright" afterPath="$PROJECT_DIR$/kits/ansible/packaging/debian/copyright" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/filter_plugins/core.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/filter_plugins/core.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_user/tasks/create_user.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_user/tasks/create_user.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/credentials.template" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/credentials.template" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/shell_plugins/csh.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/shell_plugins/csh.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/csvfile.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/csvfile.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/debug.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/debug.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_static/default.css" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_static/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/role/definition.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/role/definition.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/destructive.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/destructive.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/developing.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/developing.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/developing_api.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/developing_api.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/developing_inventory.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/developing_inventory.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/developing_modules.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/developing_modules.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/developing_plugins.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/developing_plugins.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/developing_test_pr.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/developing_test_pr.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/dict.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/dict.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/plugins/inventory/digital_ocean.ini" afterPath="$PROJECT_DIR$/kits/ansible/plugins/inventory/digital_ocean.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/inventory/dir.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/inventory/dir.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/display_functions.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/display_functions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/dnstxt.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/dnstxt.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/plugins/inventory/docker.yml" afterPath="$PROJECT_DIR$/kits/ansible/plugins/inventory/docker.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/packaging/debian/docs" afterPath="$PROJECT_DIR$/kits/ansible/packaging/debian/docs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_static/doctools.js" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_static/doctools.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/plugins/inventory/ec2.ini" afterPath="$PROJECT_DIR$/kits/ansible/plugins/inventory/ec2.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/ec2.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/ec2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/encrypted.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/encrypted.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/hacking/env-setup.fish" afterPath="$PROJECT_DIR$/kits/ansible/hacking/env-setup.fish" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/env.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/env.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/errors.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/errors.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/etcd.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/etcd.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/inventory/expand_hosts.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/inventory/expand_hosts.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/facts.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/facts.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/fail.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/fail.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/faq.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/faq.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/fetch.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/fetch.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/file.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/file.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/ticket_stubs/file_under_another_project.md" afterPath="$PROJECT_DIR$/kits/ansible/ticket_stubs/file_under_another_project.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/fileglob.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/fileglob.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/module_docs_fragments/files.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/module_docs_fragments/files.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/connection_plugins/fireball.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/connection_plugins/fireball.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/first_found.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/first_found.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/shell_plugins/fish.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/shell_plugins/fish.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/flattened.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/flattened.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/static/font/fontawesome_webfont.svg" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/static/font/fontawesome_webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/vault_test_data/foo-ansible-1.0-ansible-newline-ansible.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/units/vault_test_data/foo-ansible-1.0-ansible-newline-ansible.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/vault_test_data/foo-ansible-1.0.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/units/vault_test_data/foo-ansible-1.0.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/vault_test_data/foo-ansible-1.1.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/units/vault_test_data/foo-ansible-1.1.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_filters/templates/foo.j2" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_filters/templates/foo.j2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_template/templates/foo.j2" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_template/templates/foo.j2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_blending/templates/foo.j2" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_blending/templates/foo.j2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_copy/files/foo.txt" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_copy/files/foo.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_file/files/foo.txt" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_file/files/foo.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_filters/files/foo.txt" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_filters/files/foo.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_stat/files/foo.txt" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_stat/files/foo.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_synchronize/files/foo.txt" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_synchronize/files/foo.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_template/files/foo.txt" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_template/files/foo.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_unarchive/files/foo.txt" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_unarchive/files/foo.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_blending/files/foo.txt" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_blending/files/foo.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/footer.html" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_assemble/files/fragment1" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_assemble/files/fragment1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_assemble/files/fragment2" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_assemble/files/fragment2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_assemble/files/fragment3" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_assemble/files/fragment3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_assemble/files/fragment4" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_assemble/files/fragment4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_assemble/files/fragment5" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_assemble/files/fragment5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/connection_plugins/funcd.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/connection_plugins/funcd.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/galaxy.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/galaxy.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/galaxy_playbook.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/galaxy_playbook.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/galaxy_roles.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/galaxy_roles.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/galaxy_rolesfile" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/galaxy_rolesfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/plugins/inventory/gce.ini" afterPath="$PROJECT_DIR$/kits/ansible/plugins/inventory/gce.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/gce.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/gce.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/gce.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/gce.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/gce_credentials.py" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/gce_credentials.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/glossary.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/glossary.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/good_parsing.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/good_parsing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/ticket_stubs/great_idea.md" afterPath="$PROJECT_DIR$/kits/ansible/ticket_stubs/great_idea.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/inventory/group.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/inventory/group.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/group_by.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/group_by.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/guide_aws.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/guide_aws.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/guide_gce.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/guide_gce.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/guide_rax.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/guide_rax.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/guide_rolling_upgrade.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/guide_rolling_upgrade.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/guide_vagrant.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/guide_vagrant.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/guides.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/guides.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/guru.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/guru.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/handler.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/handler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/plugins/callbacks/hipchat.py" afterPath="$PROJECT_DIR$/kits/ansible/plugins/callbacks/hipchat.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/inventory/host.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/inventory/host.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/examples/hosts" afterPath="$PROJECT_DIR$/kits/ansible/examples/hosts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/hosts_list.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/hosts_list.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/include.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/include.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/role/include.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/role/include.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/include_vars.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/include_vars.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_includes/tasks/included_task1.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_includes/tasks/included_task1.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/ec2_elb_instance_setup/files/index.html" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/ec2_elb_instance_setup/files/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/index.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/index.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/indexed_items.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/indexed_items.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/inventory/ini.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/inventory/ini.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/integration_config.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/integration_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/intro.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/intro.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/intro_adhoc.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/intro_adhoc.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/intro_configuration.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/intro_configuration.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/intro_dynamic_inventory.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/intro_dynamic_inventory.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/intro_getting_started.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/intro_getting_started.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/intro_installation.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/intro_installation.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/intro_inventory.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/intro_inventory.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/intro_patterns.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/intro_patterns.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/intro_windows.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/intro_windows.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/inventory.group_by" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/inventory.group_by" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/inventory.handlers" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/inventory.handlers" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/inventory.winrm.template" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/inventory.winrm.template" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/inventory" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/inventory" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/inventory_api.py" afterPath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/inventory_api.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/inventory_hostnames.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/inventory_hostnames.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/items.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/items.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/connection_plugins/jail.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/connection_plugins/jail.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_static/jquery.js" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_static/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/known_hosts.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/known_hosts.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/large_range" afterPath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/large_range" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/layout.html" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/layout_old.html" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/layout_old.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/plugins/inventory/libcloud.ini" afterPath="$PROJECT_DIR$/kits/ansible/plugins/inventory/libcloud.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/connection_plugins/libvirt_lxc.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/connection_plugins/libvirt_lxc.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/lines.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/lines.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/plugins/inventory/linode.ini" afterPath="$PROJECT_DIR$/kits/ansible/plugins/inventory/linode.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/parsing/yaml/loader.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/parsing/yaml/loader.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/test/mock/loader.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/test/mock/loader.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/connection_plugins/local.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/connection_plugins/local.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/group_vars/local" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/group_vars/local" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/plugins/callbacks/log_plays.py" afterPath="$PROJECT_DIR$/kits/ansible/plugins/callbacks/log_plays.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/plugins/callbacks/mail.py" afterPath="$PROJECT_DIR$/kits/ansible/plugins/callbacks/mail.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/ec2_elb_instance_setup/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/ec2_elb_instance_setup/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/ec2_elb_instance_setup/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/ec2_elb_instance_setup/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/ec2_elb_instance_setup/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/ec2_elb_instance_setup/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/ec2_provision_instances/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/ec2_provision_instances/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/ec2_provision_instances/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/ec2_provision_instances/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/ec2_provision_instances/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/ec2_provision_instances/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/prepare_tests/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/prepare_tests/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/setup_ec2/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/setup_ec2/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/setup_ec2/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/setup_ec2/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/setup_mysql_db/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/setup_mysql_db/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/setup_mysql_db/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/setup_mysql_db/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_always_run/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_always_run/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_always_run/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_always_run/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_apt/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_apt/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_apt/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_apt/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_apt_repository/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_apt_repository/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_apt_repository/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_apt_repository/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_assemble/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_assemble/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_assemble/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_assemble/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_async/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_async/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_async/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_async/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_authorized_key/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_authorized_key/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_authorized_key/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_authorized_key/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_authorized_key/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_authorized_key/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_bad_parsing/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_bad_parsing/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_changed_when/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_changed_when/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_changed_when/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_changed_when/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_command_shell/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_command_shell/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_command_shell/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_command_shell/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_conditionals/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_conditionals/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_conditionals/vars/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_conditionals/vars/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_copy/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_copy/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_copy/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_copy/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2/handlers/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2/handlers/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2/vars/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2/vars/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_ami/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_ami/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_ami/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_ami/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_ami/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_ami/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_ami/vars/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_ami/vars/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_asg/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_asg/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_eip/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_eip/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_eip/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_eip/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_eip/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_eip/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_eip/vars/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_eip/vars/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_elb/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_elb/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_elb/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_elb/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_elb/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_elb/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_elb_lb/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_elb_lb/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_elb_lb/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_elb_lb/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_elb_lb/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_elb_lb/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_elb_lb/vars/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_elb_lb/vars/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_facts/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_facts/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_facts/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_facts/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_facts/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_facts/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_facts/vars/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_facts/vars/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_group/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_group/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_group/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_group/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_group/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_group/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_key/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_key/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_key/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_key/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_key/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_key/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_tag/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_tag/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_tag/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_tag/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_tag/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_tag/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_tag/vars/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_tag/vars/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_vol/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_vol/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_vol/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_vol/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_vol/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_vol/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_vol/vars/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_vol/vars/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_vpc/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_vpc/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_vpc/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_vpc/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_vpc/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_vpc/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_vpc/vars/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ec2_vpc/vars/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_embedded_module/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_embedded_module/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_facts_d/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_facts_d/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_facts_d/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_facts_d/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_failed_when/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_failed_when/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_fetch/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_fetch/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_fetch/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_fetch/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_file/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_file/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_file/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_file/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_filters/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_filters/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_filters/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_filters/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_filters/vars/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_filters/vars/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_gce/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_gce/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_gce/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_gce/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_gce_pd/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_gce_pd/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_gce_pd/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_gce_pd/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_gem/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_gem/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_gem/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_gem/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_get_url/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_get_url/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_get_url/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_get_url/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_git/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_git/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_git/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_git/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_good_parsing/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_good_parsing/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_good_parsing/vars/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_good_parsing/vars/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_handlers/handlers/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_handlers/handlers/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_handlers/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_handlers/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_handlers/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_handlers/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_handlers_meta/handlers/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_handlers_meta/handlers/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_handlers_meta/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_handlers_meta/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_handlers_meta/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_handlers_meta/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_hash_behavior/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_hash_behavior/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_hash_behavior/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_hash_behavior/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_hash_behavior/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_hash_behavior/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_hash_behavior/vars/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_hash_behavior/vars/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_hg/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_hg/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_hg/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_hg/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ignore_errors/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ignore_errors/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ignore_errors/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ignore_errors/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_includes/handlers/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_includes/handlers/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_includes/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_includes/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_iterators/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_iterators/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_iterators/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_iterators/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_iterators/vars/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_iterators/vars/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_lineinfile/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_lineinfile/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_lineinfile/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_lineinfile/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_lookups/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_lookups/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_lookups/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_lookups/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_db/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_db/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_db/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_db/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_db/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_db/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_user/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_user/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_user/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_user/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_user/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_user/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_variables/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_variables/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_variables/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_variables/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_variables/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_variables/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ping/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_ping/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_pip/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_pip/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_pip/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_pip/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_script/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_script/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_script/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_script/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_service/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_service/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_service/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_service/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_service/templates/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_service/templates/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_stat/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_stat/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_stat/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_stat/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_subversion/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_subversion/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_subversion/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_subversion/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_synchronize/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_synchronize/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_synchronize/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_synchronize/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_template/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_template/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_template/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_template/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_template/vars/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_template/vars/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_unarchive/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_unarchive/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_unarchive/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_unarchive/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_blending/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_blending/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_blending/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_blending/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_blending/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_blending/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_blending/vars/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_blending/vars/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_dep/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_dep/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_dep/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_dep/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_dep/vars/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_dep/vars/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_inven_override/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_inven_override/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_role1/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_role1/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_role1/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_role1/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_role1/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_role1/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_role1/vars/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_role1/vars/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_role2/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_role2/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_role2/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_role2/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_role2/vars/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_role2/vars/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_role3/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_role3/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_role3/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_role3/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_role3/vars/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_precedence_role3/vars/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_fetch/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_fetch/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_get_url/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_get_url/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_msi/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_msi/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_ping/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_ping/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_raw/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_raw/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_script/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_script/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_service/defaults/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_service/defaults/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_service/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_service/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_setup/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_setup/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_slurp/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_slurp/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_stat/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_stat/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_yum/meta/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_yum/meta/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_yum/tasks/main.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_yum/tasks/main.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/cache/memcached.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/cache/memcached.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/cache/memory.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/cache/memory.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/role/metadata.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/role/metadata.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/compat/tests/mock.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/compat/tests/mock.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/parsing/mod_args.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/parsing/mod_args.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_common.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_common.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/module_docs.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/module_docs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/ticket_stubs/module_repo.md" afterPath="$PROJECT_DIR$/kits/ansible/ticket_stubs/module_repo.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/modules.js" afterPath="$PROJECT_DIR$/kits/ansible/docsite/modules.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/modules.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/modules.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_includes/handlers/more_handlers.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_includes/handlers/more_handlers.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_blending/vars/more_vars.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_var_blending/vars/more_vars.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/ticket_stubs/needs_info.md" afterPath="$PROJECT_DIR$/kits/ansible/ticket_stubs/needs_info.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/nested.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/nested.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/ticket_stubs/no_thanks.md" afterPath="$PROJECT_DIR$/kits/ansible/ticket_stubs/no_thanks.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/non_destructive.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/non_destructive.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/callback_plugins/noop.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/callback_plugins/noop.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/inventory/vars_plugins/noop.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/inventory/vars_plugins/noop.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/normal.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/normal.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_includes/tasks/not_a_role_task.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_includes/tasks/not_a_role_task.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/plugins/inventory/nova.ini" afterPath="$PROJECT_DIR$/kits/ansible/plugins/inventory/nova.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/parsing/yaml/objects.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/parsing/yaml/objects.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/openstack.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/openstack.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/plugins/callbacks/osx_say.py" afterPath="$PROJECT_DIR$/kits/ansible/plugins/callbacks/osx_say.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/connection_plugins/paramiko_ssh.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/connection_plugins/paramiko_ssh.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/password.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/password.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/pause.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/pause.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/pipe.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/pipe.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/packaging/port/sysutils/ansible/pkg-descr" afterPath="$PROJECT_DIR$/kits/ansible/packaging/port/sysutils/ansible/pkg-descr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/playbook/play.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/playbook/play.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/play.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/play.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/playbook_include.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/playbook_include.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_acceleration.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_acceleration.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_async.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_async.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_best_practices.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_best_practices.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_checkmode.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_checkmode.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_conditionals.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_conditionals.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_delegation.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_delegation.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_environment.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_environment.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_error_handling.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_error_handling.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_intro.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_intro.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_lookups.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_lookups.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_loops.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_loops.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_prompts.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_prompts.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_roles.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_roles.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_special_topics.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_special_topics.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_tags.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_tags.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_variables.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_variables.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_vault.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/playbooks_vault.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/plugins.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/plugins.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/poller.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/poller.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/powershell.ps1" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/powershell.ps1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/shell_plugins/powershell.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/shell_plugins/powershell.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/ticket_stubs/pr_cleanup_commits.md" afterPath="$PROJECT_DIR$/kits/ansible/ticket_stubs/pr_cleanup_commits.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/ticket_stubs/pr_duplicate.md" afterPath="$PROJECT_DIR$/kits/ansible/ticket_stubs/pr_duplicate.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/ticket_stubs/pr_merged.md" afterPath="$PROJECT_DIR$/kits/ansible/ticket_stubs/pr_merged.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/ticket_stubs/pr_needs_rebase.md" afterPath="$PROJECT_DIR$/kits/ansible/ticket_stubs/pr_needs_rebase.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/ticket_stubs/pr_needs_revision.md" afterPath="$PROJECT_DIR$/kits/ansible/ticket_stubs/pr_needs_revision.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/packaging/debian/pycompat" afterPath="$PROJECT_DIR$/kits/ansible/packaging/debian/pycompat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_static/pygments.css" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_static/pygments.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/quickstart.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/quickstart.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_copy/files/subdir/subdir2/subdir3/subdir4/qux.txt" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_copy/files/subdir/subdir2/subdir3/subdir4/qux.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/module_docs_fragments/rackspace.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/module_docs_fragments/rackspace.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/rackspace.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/rackspace.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/random_choice.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/random_choice.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/raw.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/raw.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/rax.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/rax.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/redhat.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/redhat.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/cache/redis.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/cache/redis.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/redis_kv.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/redis_kv.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_user/tasks/remove_user.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_user/tasks/remove_user.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/role/requirement.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/role/requirement.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/ticket_stubs/resolved.md" afterPath="$PROJECT_DIR$/kits/ansible/ticket_stubs/resolved.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/restrict_pattern" afterPath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/restrict_pattern" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/return_data.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/return_data.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/hacking/templates/rst.j2" afterPath="$PROJECT_DIR$/kits/ansible/hacking/templates/rst.j2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/inventory/script.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/inventory/script.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/script.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/script.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/search.html" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/searchbox.html" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/searchbox.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_static/searchtools.js" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_static/searchtools.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_file/tasks/selinux_tests.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_file/tasks/selinux_tests.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/sequence.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/sequence.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/set_fact.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/set_fact.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/setup.py" afterPath="$PROJECT_DIR$/kits/ansible/setup.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/setup_gce.py" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/setup_gce.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/shell_plugins/sh.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/shell_plugins/sh.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_static/sidebar.js" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_static/sidebar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/simple_hosts" afterPath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/simple_hosts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_static/solar.css" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_static/solar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_static/solarized-dark.css" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_static/solarized-dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/splitter.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/splitter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/parsing/splitter.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/parsing/splitter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/connection_plugins/ssh.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/connection_plugins/ssh.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_db/tasks/state_dump_import.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_db/tasks/state_dump_import.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/string_functions.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/string_functions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/parsing/yaml/strings.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/parsing/yaml/strings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/su_prompts.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/su_prompts.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/subelements.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/subelements.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/synchronize.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/synchronize.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_service/tasks/systemd_cleanup.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_service/tasks/systemd_cleanup.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_service/tasks/systemd_setup.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_service/tasks/systemd_setup.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_service/tasks/sysv_cleanup.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_service/tasks/sysv_cleanup.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_service/tasks/sysv_setup.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_service/tasks/sysv_setup.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/tag.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/tag.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/playbook/task.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/playbook/task.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/task.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/task.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/task_include.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/task_include.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/template.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/template.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/template.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/template.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/template.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/template.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_lineinfile/files/test.txt" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_lineinfile/files/test.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/test/test.yml" afterPath="$PROJECT_DIR$/kits/ansible/v2/test/test.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/inventory/test_alpha_end_before_beg" afterPath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/inventory/test_alpha_end_before_beg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/test/playbook/test_block.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/test/playbook/test_block.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/inventory/test_combined_range" afterPath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/inventory/test_combined_range" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/test/parsing/yaml/test_data_loader.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/test/parsing/yaml/test_data_loader.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/test/errors/test_errors.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/test/errors/test_errors.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/test_group_by.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/test_group_by.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/test_handlers.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/test_handlers.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/test_hash.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/test_hash.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/vars/test_hash_vars.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/vars/test_hash_vars.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_good_parsing/tasks/test_include.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_good_parsing/tasks/test_include.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_good_parsing/tasks/test_include_conditional.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_good_parsing/tasks/test_include_conditional.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_good_parsing/tasks/test_include_nested.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_good_parsing/tasks/test_include_nested.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/test_includes.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/test_includes.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/test_includes2.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/test_includes2.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/inventory/test_incorrect_format" afterPath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/inventory/test_incorrect_format" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/inventory/test_incorrect_range" afterPath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/inventory/test_incorrect_range" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_embedded_module/library/test_integration_module" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_embedded_module/library/test_integration_module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/inventory/test_leading_range" afterPath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/inventory/test_leading_range" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/inventory/test_missing_end" afterPath="$PROJECT_DIR$/kits/ansible/test/units/inventory_test_data/inventory/test_missing_end" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/test/parsing/test_mod_args.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/test/parsing/test_mod_args.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/test/plugins/test_plugins.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/test/plugins/test_plugins.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_user/tasks/test_privs.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_user/tasks/test_privs.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/test/playbook/test_role.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/test/playbook/test_role.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_script/files/test_script.bat" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_script/files/test_script.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_script/files/test_script.ps1" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_script/files/test_script.ps1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_script/files/test_script_with_args.ps1" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_script/files/test_script_with_args.ps1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_script/files/test_script_with_errors.ps1" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_win_script/files/test_script_with_errors.ps1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/test_setup.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/test_setup.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/test_strategies.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/test_strategies.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/test/playbook/test_task.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/test/playbook/test_task.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/vars/test_var_encrypted.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/vars/test_var_encrypted.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/test_var_precedence.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/test_var_precedence.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/vars/test_var_precedence.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/vars/test_var_precedence.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/test/parsing/vault/test_vault.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/test/parsing/vault/test_vault.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/test_vault.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/test_vault.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/test/parsing/vault/test_vault_editor.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/test/parsing/vault/test_vault_editor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/test_winrm.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/test_winrm.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_lineinfile/files/testempty.txt" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_lineinfile/files/testempty.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/host_vars/testhost" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/host_vars/testhost" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_lineinfile/files/testnoeof.txt" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_lineinfile/files/testnoeof.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/ticket_stubs/thanks.md" afterPath="$PROJECT_DIR$/kits/ansible/ticket_stubs/thanks.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/theme.conf" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/theme.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/static/css/theme.css" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/static/css/theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/static/js/theme.js" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/static/js/theme.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/together.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/lookup_plugins/together.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/rst/tower.rst" afterPath="$PROJECT_DIR$/kits/ansible/docsite/rst/tower.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/unarchive.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/action_plugins/unarchive.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_static/underscore.js" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_static/underscore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/unicode.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/unicode.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/compat/tests/unittest.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/compat/tests/unittest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/examples/scripts/upgrade_to_ps3.ps1" afterPath="$PROJECT_DIR$/kits/ansible/examples/scripts/upgrade_to_ps3.ps1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_service/tasks/upstart_cleanup.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_service/tasks/upstart_cleanup.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_service/tasks/upstart_setup.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_service/tasks/upstart_setup.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/urls.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/module_utils/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_user/tasks/user_password_update_test.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_mysql_user/tasks/user_password_update_test.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/variables.dot" afterPath="$PROJECT_DIR$/kits/ansible/docsite/variables.dot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/vars.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/vars.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/vars_file.py" afterPath="$PROJECT_DIR$/kits/ansible/v2/ansible/playbook/vars_file.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/vars_file.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/vars_file.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/vault-password" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/vault-password" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/vault.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/utils/vault.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/versions.html" afterPath="$PROJECT_DIR$/kits/ansible/docsite/_themes/srtd/versions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/plugins/inventory/vmware.ini" afterPath="$PROJECT_DIR$/kits/ansible/plugins/inventory/vmware.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/ticket_stubs/wider_discussion.md" afterPath="$PROJECT_DIR$/kits/ansible/ticket_stubs/wider_discussion.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/plugins/inventory/windows_azure.ini" afterPath="$PROJECT_DIR$/kits/ansible/plugins/inventory/windows_azure.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/connection_plugins/winrm.py" afterPath="$PROJECT_DIR$/kits/ansible/lib/ansible/runner/connection_plugins/winrm.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/devops.mm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/findbugs-idea.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/devops.iml" afterPath="$PROJECT_DIR$/.idea/devops.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/mail eric.txt" afterPath="$PROJECT_DIR$/docs/mail eric.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_yum/tasks/yum.yml" afterPath="$PROJECT_DIR$/kits/ansible/test/integration/roles/test_yum/tasks/yum.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kits/ansible/plugins/inventory/zabbix.ini" afterPath="$PROJECT_DIR$/kits/ansible/plugins/inventory/zabbix.ini" />
     </list>
     <ignored path="devops.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -750,6 +28,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties converted="true" />
     <breakpoint_any converted="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -786,11 +65,11 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
+    <favorites_list name="CodeIris Favorites" />
     <favorites_list name="devops" />
   </component>
   <component name="FileEditorManager">
@@ -798,8 +77,8 @@
       <file leaf-file-name="mail eric.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/mail eric.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38121548" vertical-offset="0" max-vertical-offset="1245">
-              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.8842653" vertical-offset="612" max-vertical-offset="1394">
+              <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -824,10 +103,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="y" value="-3" />
-    <option name="width" value="1924" />
-    <option name="height" value="1052" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -885,20 +164,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="kits" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devops" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devops" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="docs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -923,28 +188,93 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.48739496" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\experiments\devops\docs" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <option name="name" value="Go application" />
-      <option name="saveOutputToFile" value="false" />
-      <option name="showConsoleOnStdErr" value="false" />
-      <option name="showConsoleOnStdOut" value="false" />
-      <option name="scriptName" value="" />
-      <option name="scriptArguments" value="" />
-      <option name="builderArguments" value="" />
-      <option name="goBuildBeforeRun" value="false" />
-      <option name="goOutputDir" value="" />
-      <option name="workingDir" value="" />
-      <option name="envVars" value="" />
-      <option name="goVetEnabled" value="false" />
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
@@ -960,17 +290,6 @@
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -999,131 +318,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GoTestConfiguration" factoryName="Go Test">
-      <option name="name" value="Go Test" />
-      <option name="saveOutputToFile" value="false" />
-      <option name="showConsoleOnStdErr" value="false" />
-      <option name="showConsoleOnStdOut" value="false" />
-      <option name="envVars" value="" />
-      <option name="testRunnerArgs" value="" />
-      <option name="testTargetType" value="Package" />
-      <option name="packageName" value="" />
-      <option name="packageDir" value="" />
-      <option name="testFile" value="" />
-      <option name="testArgs" value="" />
-      <option name="workingDir" value="" />
-      <option name="executeWhat" value="Test" />
-      <option name="filter" value="" />
-      <option name="useShortRun" value="false" />
-      <option name="testBeforeBenchmark" value="false" />
-      <option name="goVetEnabled" value="false" />
-      <module name="" />
       <method />
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
@@ -1160,56 +354,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
     <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -1217,6 +361,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SqlCodeAssistantSettings">
+    <option name="dbBrowserSelectedConnection" value="devops" />
+  </component>
   <component name="SvnConfiguration" myUseAcceleration="nothing" SSL_PROTOCOLS="sslv3">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
@@ -1229,36 +376,47 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="-3" width="1924" height="1052" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="DatabaseBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Copy/Paste" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.mm" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1286,8 +444,24 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/docs/mail eric.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38121548" vertical-offset="0" max-vertical-offset="1245">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1394">
           <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/devops.mm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2108">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/mail eric.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8842653" vertical-offset="612" max-vertical-offset="1394">
+          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
           <folding />
         </state>
       </provider>
