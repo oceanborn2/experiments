@@ -20,7 +20,7 @@ def add(x: Int, y: Int): Int = {
 add(4, 3)
 
 def addxy(x: Int)(y: Int): Int = {
-  add(x) y
+  x + y
 }
 
 def add2 = {
@@ -29,9 +29,11 @@ def add2 = {
 
 add2(1000)
 
-
-(a,b) = (b,a)
-
+val a: Int = 1
+val b: Int = 3
+val c = (a, b) = (b, a)
+println("a:" + a)
+println("b:" + b)
 
 //def add(x,y) = x + y
 
