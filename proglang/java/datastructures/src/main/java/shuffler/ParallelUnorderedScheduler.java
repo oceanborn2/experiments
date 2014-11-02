@@ -1,6 +1,8 @@
 package shuffler;
 
+import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.List;
 
 /**
  * Shuffle a list of tuples (T,U) whose ordered is decided with type T and comparator.
@@ -9,15 +11,12 @@ import java.util.Comparator;
 
 public class ParallelUnorderedScheduler<T, U> {
 
-    public void schedule(Tuple<T, U>[] items, Comparator<? super Tuple<T, U>> comparator) {
-        schedule(items, comparator, false);
-
+    public /*List<List<U>> */ void preparePlan(Tuple<T, U>[] items, Comparator<? super Tuple<T, U>> comparator) {
+        preparePlan(items, comparator, false);
     }
 
-    protected void schedule(Tuple<T, U>[] items, Comparator<? super Tuple<T, U>> comparator, boolean secondPass) {
+    protected void /*List<List<U>> */ preparePlan(Tuple<T, U>[] items, Comparator<? super Tuple<T, U>> comparator, boolean secondPass) {
         if (items != null && items.length > 0) {
-
-            // and then pick every first item in the groups
             final int targetLen = items.length;
             boolean contiguous = false;
             boolean changeMade = false;
@@ -31,7 +30,7 @@ public class ParallelUnorderedScheduler<T, U> {
                 Tuple<T, U> nextItem = items[scanner];
                 T nt = nextItem.t();
 
-                while (nt.equals(kt) && scanner < targetLen) {
+                while (comparator.compare(item, nextItem) == 0 && scanner < targetLen) { // nt.equals(kt)
                     contiguous = true;
                     scanner++;
                     scanner = scanner % targetLen;
@@ -39,7 +38,7 @@ public class ParallelUnorderedScheduler<T, U> {
                     nt = nextItem.t();
                 }
                 if (contiguous) {
-                    if (!kt.equals(nt)) {
+                    if (comparator.compare(item, nextItem) != 0) { //!kt.equals(nt)) {
                         Tuple<T, U> swap = items[index + 1];
                         items[index + 1] = nextItem;
                         items[scanner] = swap;
@@ -50,15 +49,49 @@ public class ParallelUnorderedScheduler<T, U> {
 
                 if (contiguous && !changeMade) {
                     // Make a final round as the first item may have been left in order (with the second)
+                    break;
                 }
                 index++;
-
             }
+
             if (!secondPass) {
-                schedule(items, comparator, true);
+                preparePlan(items, comparator, true);
             }
-
         }
+    }
+
+    public List<List<U>> scheduleGroups(Tuple<T, U>[] items, Comparator comparator) {
+
+        if (items == null || items.length == 0) {
+            return null;
+        }
+
+        int targetLen = items.length;// now create a list of groups
+
+        List<List<U>> groups = new ArrayList();
+        List<U> newGroup = new ArrayList();
+        groups.add(newGroup);
+
+        int index = 0;
+        Tuple<T, U> item = items[index];
+        T kt = item.t();
+        newGroup.add(item.u());
+        index++;
+        Tuple<T, U> nextItem = items[index];
+        while (index < targetLen) {
+            newGroup.add(nextItem.u());
+            nextItem = items[index];
+            while (comparator.compare(item, nextItem) != 0) { //!kt.equals(item.t())) {
+                newGroup.add(nextItem.u());
+                index++;
+                if (index == targetLen) break;
+                nextItem = items[index];
+            }
+            newGroup = new ArrayList();
+            groups.add(newGroup);
+            newGroup.add(nextItem.u());
+        }
+        return groups;
     }
 
 }
