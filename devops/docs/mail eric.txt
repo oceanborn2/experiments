@@ -1,0 +1,77 @@
+
+*Ansible
+
+ Ansible est un outil permettant de pousser des configuration au travers de ssh. Les configuration sont regroupées au travers d'un playbook
+
+ points importants:
+   - la configuration est poussé a chaque run d'un playbook
+   - ne nécessite pas d'installation particulière sur les machine administré
+   - tout se passe au travers de ssh
+   - le format des playbook sont des fichier de configuration + template
+   - il existe plein de playbook (galaxy)
+   - ecrit en python
+   - les dernière version commencent a supporter windows
+   - Très bonne documentation
+   - Projet qui monte
+
+
+*Puppet
+
+ Puppet  plus ancien qu'ansible, permet de gérer la configuration de machine.
+
+  points importants:
+    - ecrit en ruby
+    - Utilise un agent qui doit être installer sur la machine a gere
+    - Les échanges se font au travers d'un tunnel ssl
+    - La configuration du serveur doit être prévue dès le départ pour être scalable
+    - L'agent verifie periodiquement que la configuration du serveur n'a pas bouger (30min) et écrase les fichiers éventuellement modifié a la main
+    - bonne documentation
+    - Projet déjà ancien et largerment utilisé
+    - Les configurations sont décrite a l'aide d'un DSL Ruby
+    - Grosse communauté (puppet forge)
+        - Les agents pull la configuration du serveur
+
+* Salt
+
+ Salt fonctionne sous le même principe que puppet
+
+  points importants:
+    - ecrit en python
+    - Utilise un agent qui doit être installer sur la machine a gere
+    - Les échanges se font au travers de 0mq
+    - La configuration du serveur est plus simple que puppet
+    - L'agent verifie periodiquement que la configuration du serveur n'a pas bouger (30min) et écrase les fichiers éventuellement modifié a la main
+    - bonne documentation
+    - Projet assez jeune
+    - le format des playbook sont des fichier de configuration + template
+        - Les agents pull la configuration du serveur
+    - les agents existent pour windows
+
+* Capistrano
+
+ C'est un outils a l'origine fait pour déployer du ruby on rail mais utilisable pour automatiser des déployement php ou autre. ce n'est pas un outils de gestion de configuration a proprement parlé mais permet de pousser de la conf.
+
+ Points importants:
+    - Projet ancien
+        - Bien pour pousser une application et sa conf sur un serveur
+        - A utiliser en complément
+        - Ecrit en ruby
+        - configuration facon DSL Ruby
+
+* Chef
+ Puppet    concurrent de puppet
+
+  points importants:
+    - ecrit en Erlang (lol)
+    - Utilise un agent qui doit être installer sur la machine a gere
+    - Les échanges se font au travers d'un tunnel ssl
+    - L'agent verifie periodiquement que la configuration du serveur n'a pas bouger (30min) et écrase les fichiers éventuellement modifié a la main
+    - Documentation cauchemardesque !!!
+    - Incompatibilité entre les version
+    - Projet déjà ancien et de moins en moins utilisé
+    - Les configurations sont décrite a l'aide d'un DSL Ruby
+    - Grosse communauté
+    - existe en version commercial
+
+* CFEngine
+     Connait pas
