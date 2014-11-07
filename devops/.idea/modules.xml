@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/devops.iml" filepath="$PROJECT_DIR$/.idea/devops.iml" />
+      <module fileurl="file://D:/vagrant/vagrant.iml" filepath="D:/vagrant/vagrant.iml" />
     </modules>
   </component>
 </project>
