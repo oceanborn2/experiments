@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/devops.iml" filepath="$PROJECT_DIR$/.idea/devops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../packer-arch/packer-arch.iml" filepath="$PROJECT_DIR$/../../packer-arch/packer-arch.iml" />
       <module fileurl="file://D:/vagrant/vagrant.iml" filepath="D:/vagrant/vagrant.iml" />
     </modules>
   </component>
 </project>
-

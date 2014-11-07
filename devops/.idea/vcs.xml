@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../packer-arch" vcs="Git" />
     <mapping directory="D:/vagrant" vcs="" />
     <mapping directory="D:/vagrant/projects/anvils-demo" vcs="Git" />
     <mapping directory="D:/vagrant/projects/coreos-vagrant" vcs="Git" />

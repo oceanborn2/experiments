@@ -1,4 +1,4 @@
-﻿@echo off
+@echo off
 
 rem https://www.packer.io/
 rem http://blog.ippon.fr/2014/03/24/du-dev-a-la-prod-avec-vagrant-et-packer/
@@ -34,11 +34,16 @@ REM directory: output
 REM Please be sure to run 'packer validate' against the new template
 REM to verify settings are correct.
 
+REM https://github.com/medvid/arch-packer/blob/master/arch_x86_novtx.json ==> Good template
+
+REM http://www.tswartz.net/blog/how-to-install-packer-the-archlinux-aur-helper
+REM http://phollow.fr/2010/02/le-wrapper-pacman-et-aur-parfait-sur-arch-linux/
+REM https://github.com/elasticdog/packer-arch
 
 set PACKER=D:\software\VagrantPacker
-set OLDPATH=%PATH%
 
 %PACKER%\packer.exe build -only=virtualbox-iso template.json
-
-set PATH=%OLDPATH%
+rem %PACKER%\packer.exe validate -only=virtualbox-iso template.json
+rem %PACKER%\packer.exe inspect template.json
+rem %PACKER%\packer.exe fix template.json
 
