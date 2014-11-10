@@ -1,17 +1,19 @@
 #!/usr/bin/env bash
 
-DISK='/dev/sda'
-FQDN='vagrant-arch.vagrantup.com'
+
+FQDN='myarch.valtech.com'
 KEYMAP='fr'
 LANGUAGE='fr_FR.UTF-8'
 PASSWORD=$(/usr/bin/openssl passwd -crypt 'vagrant')
 TIMEZONE='Europe/Paris'
 
 CONFIG_SCRIPT='/usr/local/bin/arch-config.sh'
+DISK='/dev/sda'
 BOOT_PARTITION="${DISK}1"
 SWAP_PARTITION="${DISK}2"
 ROOT_PARTITION="${DISK}3"
 VAR_PARTITION="${DISK}4"
+
 TARGET_DIR='/mnt'
 
 echo "==> clearing partition table on ${DISK}"
@@ -27,42 +29,62 @@ echo "==> setting ${DISK} bootable"
 /usr/bin/sgdisk ${DISK} --attributes=1:set:2
 
 echo "==> Partitioning the disk with required partitions"
-sgdisk -og ${DISK}                                           # Initialize partitioning
-sgdisk -n 1:2048:206847      -c 1:"Boot" -t 1:ef01  ${DISK}  # Boot partition with MBR scheme
-sgdisk -n 2:206848:2304000   -c 2:"Swap" -t 2:8200  ${DISK}	 # Swap partition
-sgdisk -n 3:2304001:44247041 -c 3:"Root" -t 3:8300  ${DISK}  # Linux root filesystem
-sgdisk -n 4:44247042:$ENDSECTOR -c 4:"Var" -t 4:8300  ${DISK}  # Linux var filesystem
-sgdisk -p $1
+/usr/bin/sgdisk -og ${DISK}                                              # Initialize partitioning
+/usr/bin/sgdisk -n 1:2048:206847         -c 1:"Boot" -t 1:ef01  ${DISK}  # Boot partition with MBR scheme
+/usr/bin/sgdisk -n 2:206848:2304000      -c 2:"Swap" -t 2:8200  ${DISK}	 # Swap partition
+/usr/bin/sgdisk -n 3:2304001:44247041    -c 3:"Root" -t 3:8300  ${DISK}  # Linux root filesystem
+/usr/bin/sgdisk -n 4:44247042:$ENDSECTOR -c 4:"Var"  -t 4:8300  ${DISK}  # Linux var filesystem
+
+echo "==> printing the partitioning"
+/usr/bin/sgdisk -p $1
+/usr/bin/fdisk -l
+echo "==> printed the partitioning"
 
 echo '==> creating filesystems'
 /usr/bin/mkfs.ext4 -F -m 0 -q -L boot ${BOOT_PARTITION}
-/usr/bin/mkswap ${SWAP_PARTITION}
+/usr/bin/mkswap                       ${SWAP_PARTITION}
 /usr/bin/mkfs.ext4 -F -m 0 -q -L root ${ROOT_PARTITION}
-/usr/bin/mkfs.ext4 -F -m 0 -q -L var ${VAR_PARTITION}
+/usr/bin/mkfs.ext4 -F -m 0 -q -L var  ${VAR_PARTITION}
 
-/usr/bin/swapon ${SWAP_PARTITION}
 
 echo "==> mounting ${ROOT_PARTITION} to ${TARGET_DIR}"
-/usr/bin/mount -o noatime,errors=remount-ro ${ROOT_PARTITION} ${TARGET_DIR}
-/usr/bin/mkdir ${TARGET_DIR}/boot
-/usr/bin/mount -o noatime,errors=remount-ro ${BOOT_PARTITION} ${TARGET_DIR/boot}
-/usr/bin/mkdir ${TARGET_DIR}/var
-/usr/bin/mount -o noatime,errors=remount-ro ${VAR_PARTITION} ${TARGET_DIR/var}
+/usr/bin/mount -o noatime,errors=remount-ro ${ROOT_PARTITION} "${TARGET_DIR}"
+/usr/bin/mkdir -p "${TARGET_DIR}/boot"
+/usr/bin/mount -o noatime,errors=remount-ro ${BOOT_PARTITION} "${TARGET_DIR}/boot"
+/usr/bin/mkdir -p "${TARGET_DIR}/var"
+/usr/bin/mount -o noatime,errors=remount-ro ${VAR_PARTITION} "${TARGET_DIR}/var"
+
+echo "==> printing MTAB"
+cat /etc/mtab
+echo "==> printed MTAB"
+
+export http_proxy="http://10.61.3.151:3128"
+export https_proxy=$http_proxy
+export ftp_proxy=$http_proxy
+export rsync_proxy=$http_proxy
+
+/usr/bin/bash
 
 echo '==> bootstrapping the base installation'
-/usr/bin/pacstrap ${TARGET_DIR} base base-devel
+/usr/bin/pacstrap    ${TARGET_DIR} base base-devel
 /usr/bin/arch-chroot ${TARGET_DIR} pacman -S --noconfirm gptfdisk openssh syslinux docker cloud-init
 /usr/bin/arch-chroot ${TARGET_DIR} syslinux-install_update -i -a -m
-#/usr/bin/sed -i 's/sda3/sda1/' "${TARGET_DIR}/boot/syslinux/syslinux.cfg"
+/usr/bin/cat "${TARGET_DIR}/boot/syslinux.cfg"
+/usr/bin/sed -i 's/sda3/sda1/' "${TARGET_DIR}/boot/syslinux/syslinux.cfg"
 /usr/bin/sed -i 's/TIMEOUT 50/TIMEOUT 10/' "${TARGET_DIR}/boot/syslinux/syslinux.cfg"
+/usr/bin/sed -i 's/ProxyServer\s*=\s*(.*)/ProxyServer=http://10.61.3.151:3128' "${TARGET_DIR}/etc/pacman.conf"
 
 echo '==> generating the filesystem table'
-/usr/bin/genfstab -p ${TARGET_DIR} >> "${TARGET_DIR}/etc/fstab"
+/usr/bin/genfstab -p ${TARGET_DIR} > "${TARGET_DIR}/etc/fstab"
 echo '/swap-file none swap sw 0 0' >> "${TARGET_DIR}/etc/fstab"
-
 
 echo '==> generating the system configuration script'
 /usr/bin/install --mode=0755 /dev/null "${TARGET_DIR}${CONFIG_SCRIPT}"
+
+cat <<EOF > "${TARGET_DIR}/etc/profile"
+export http_proxy="http://10.61.3.151:3128"
+export ftp_proxy="http://10.61.3.151:3128"
+EOF
 
 cat <<-EOF > "${TARGET_DIR}${CONFIG_SCRIPT}"
 	echo '${FQDN}' > /etc/hostname
@@ -106,7 +128,7 @@ EOF
 
 echo '==> entering chroot and configuring system'
 /usr/bin/arch-chroot ${TARGET_DIR} ${CONFIG_SCRIPT}
-rm "${TARGET_DIR}${CONFIG_SCRIPT}"
+#rm "${TARGET_DIR}${CONFIG_SCRIPT}"
 
 # http://comments.gmane.org/gmane.linux.arch.general/48739
 echo '==> adding workaround for shutdown race condition'
