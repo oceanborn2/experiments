@@ -13,3 +13,8 @@ I had this error with the OpenStack builder and simply specifying
 
             "proxy":"http://10.61.3.151:3128"
 
+#cat EOF  > > "${MNT_DIR}/etc/profile"
+# export http_proxy="http://10.61.3.151:3128"
+#export ftp_proxy="http://10.61.3.151:3128"
+#EOF
+

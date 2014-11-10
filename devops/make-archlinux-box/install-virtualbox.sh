@@ -14,7 +14,7 @@ SWAP_PARTITION="${DISK}2"
 ROOT_PARTITION="${DISK}3"
 VAR_PARTITION="${DISK}4"
 
-TARGET_DIR='/mnt'
+MNT_DIR='/mnt'
 
 echo "==> clearing partition table on ${DISK}"
 /usr/bin/sgdisk --zap ${DISK}
@@ -47,46 +47,60 @@ echo '==> creating filesystems'
 /usr/bin/mkfs.ext4 -F -m 0 -q -L var  ${VAR_PARTITION}
 
 
-echo "==> mounting ${ROOT_PARTITION} to ${TARGET_DIR}"
-/usr/bin/mount -o noatime,errors=remount-ro ${ROOT_PARTITION} "${TARGET_DIR}"
-/usr/bin/mkdir -p "${TARGET_DIR}/boot"
-/usr/bin/mount -o noatime,errors=remount-ro ${BOOT_PARTITION} "${TARGET_DIR}/boot"
-/usr/bin/mkdir -p "${TARGET_DIR}/var"
-/usr/bin/mount -o noatime,errors=remount-ro ${VAR_PARTITION} "${TARGET_DIR}/var"
+echo "==> mounting ${ROOT_PARTITION} to ${MNT_DIR}"
+/usr/bin/mount -o noatime,errors=remount-ro ${ROOT_PARTITION} "${MNT_DIR}"
+/usr/bin/mkdir -p "${MNT_DIR}/boot"
+/usr/bin/mount -o noatime,errors=remount-ro ${BOOT_PARTITION} "${MNT_DIR}/boot"
+/usr/bin/mkdir -p "${MNT_DIR}/var"
+/usr/bin/mount -o noatime,errors=remount-ro ${VAR_PARTITION} "${MNT_DIR}/var"
 
 echo "==> printing MTAB"
 cat /etc/mtab
 echo "==> printed MTAB"
 
-export http_proxy="http://10.61.3.151:3128"
-export https_proxy=$http_proxy
-export ftp_proxy=$http_proxy
-export rsync_proxy=$http_proxy
+ping -n 3 10.61.3.151
+
+cat <<EOF > setproxy.sh
+#!/bin/bash
+HTTP_PROXY="http://10.61.3.151:3128"
+export HTTP_PROXY
+HTTPS_PROXY==$HTTP_PROXY
+export HTTPS_PROXY
+FTP_PROXY=$HTTP_PROXY
+export FTP_PROXY
+RSYNC_PROXY=$HTTP_PROXY
+export RSYNC_PROXY
+EOF
+
+chmod +x ./setproxy.sh
+. ./setproxy.sh
+
+wget http://mirror.archlinux.ikoula.com/archlinux/iso/2014.11.01/archlinux-bootstrap-2014.11.01-x86_64.tar.gz
+#wget http://10.61.3.151/rpc2?url=http://www.google.fr
+
 
 /usr/bin/bash
 
 echo '==> bootstrapping the base installation'
-/usr/bin/pacstrap    ${TARGET_DIR} base base-devel
-/usr/bin/arch-chroot ${TARGET_DIR} pacman -S --noconfirm gptfdisk openssh syslinux docker cloud-init
-/usr/bin/arch-chroot ${TARGET_DIR} syslinux-install_update -i -a -m
-/usr/bin/cat "${TARGET_DIR}/boot/syslinux.cfg"
-/usr/bin/sed -i 's/sda3/sda1/' "${TARGET_DIR}/boot/syslinux/syslinux.cfg"
-/usr/bin/sed -i 's/TIMEOUT 50/TIMEOUT 10/' "${TARGET_DIR}/boot/syslinux/syslinux.cfg"
-/usr/bin/sed -i 's/ProxyServer\s*=\s*(.*)/ProxyServer=http://10.61.3.151:3128' "${TARGET_DIR}/etc/pacman.conf"
+/usr/bin/loadkeys fr
+/usr/bin/pacstrap    ${MNT_DIR} base base-devel
+/usr/bin/arch-chroot ${MNT_DIR} pacman -S --noconfirm gptfdisk openssh syslinux docker cloud-init
+/usr/bin/arch-chroot ${MNT_DIR} syslinux-install_update -i -a -m
+/usr/bin/cat "${MNT_DIR}/boot/syslinux.cfg"
+#/usr/bin/sed -i 's/sda3/sda1/' "${MNT_DIR}/boot/syslinux/syslinux.cfg"
+/usr/bin/sed -i 's/TIMEOUT 50/TIMEOUT 10/' "${MNT_DIR}/boot/syslinux/syslinux.cfg"
+#/usr/bin/sed -i 's/ProxyServer\s*=\s*(.*)/ProxyServer=http://10.61.3.151:3128' "${MNT_DIR}/etc/pacman.conf"
 
 echo '==> generating the filesystem table'
-/usr/bin/genfstab -p ${TARGET_DIR} > "${TARGET_DIR}/etc/fstab"
-echo '/swap-file none swap sw 0 0' >> "${TARGET_DIR}/etc/fstab"
+/usr/bin/genfstab -p ${MNT_DIR} > "${MNT_DIR}/etc/fstab"
+echo '/swap-file none swap sw 0 0' >> "${MNT_DIR}/etc/fstab"
 
 echo '==> generating the system configuration script'
-/usr/bin/install --mode=0755 /dev/null "${TARGET_DIR}${CONFIG_SCRIPT}"
+/usr/bin/install --mode=0755 /dev/null "${MNT_DIR}${CONFIG_SCRIPT}"
 
-cat <<EOF > "${TARGET_DIR}/etc/profile"
-export http_proxy="http://10.61.3.151:3128"
-export ftp_proxy="http://10.61.3.151:3128"
-EOF
 
-cat <<-EOF > "${TARGET_DIR}${CONFIG_SCRIPT}"
+cat <<-EOF > "${MNT_DIR}${CONFIG_SCRIPT}"
+	/usr/bin/swapon ${SWAP_PARTITION}
 	echo '${FQDN}' > /etc/hostname
 	/usr/bin/ln -s /usr/share/zoneinfo/${TIMEZONE} /etc/localtime
 	echo 'KEYMAP=${KEYMAP}' > /etc/vconsole.conf
@@ -126,18 +140,22 @@ cat <<-EOF > "${TARGET_DIR}${CONFIG_SCRIPT}"
 	/usr/bin/pacman -Scc --noconfirm
 EOF
 
+echo "==> showing the script"
+cat "${MNT_DIR}${CONFIG_SCRIPT}"
+echo "==> script shown"
+
 echo '==> entering chroot and configuring system'
-/usr/bin/arch-chroot ${TARGET_DIR} ${CONFIG_SCRIPT}
-#rm "${TARGET_DIR}${CONFIG_SCRIPT}"
+/usr/bin/arch-chroot ${MNT_DIR} ${CONFIG_SCRIPT}
+#rm "${MNT_DIR}${CONFIG_SCRIPT}"
 
 # http://comments.gmane.org/gmane.linux.arch.general/48739
 echo '==> adding workaround for shutdown race condition'
-/usr/bin/install --mode=0644 poweroff.timer "${TARGET_DIR}/etc/systemd/system/poweroff.timer"
+/usr/bin/install --mode=0644 poweroff.timer "${MNT_DIR}/etc/systemd/system/poweroff.timer"
 
 echo '==> installation complete!'
 /usr/bin/sleep 3
-/usr/bin/umount ${TARGET_DIR}/boot
-/usr/bin/umount ${TARGET_DIR}/var
-/usr/bin/umount ${TARGET_DIR}
+/usr/bin/umount ${MNT_DIR}/boot
+/usr/bin/umount ${MNT_DIR}/var
+/usr/bin/umount ${MNT_DIR}
 /usr/bin/swapoff ${SWAP_PARTITION}
 /usr/bin/systemctl reboot
