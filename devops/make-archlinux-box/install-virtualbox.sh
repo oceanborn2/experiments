@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-
 FQDN='myarch.valtech.com'
 KEYMAP='fr'
 LANGUAGE='fr_FR.UTF-8'
@@ -58,11 +57,13 @@ echo "==> printing MTAB"
 cat /etc/mtab
 echo "==> printed MTAB"
 
-ping -n 3 10.61.3.151
+PROXYADR=192.168.1.12
+#PROXYADR=10.61.3.151
+#ping -n 3 ${PROXYADR}
 
 cat <<EOF > setproxy.sh
 #!/bin/bash
-HTTP_PROXY="http://10.61.3.151:3128"
+HTTP_PROXY="http://${PROXYADR}:3128"
 export HTTP_PROXY
 HTTPS_PROXY==$HTTP_PROXY
 export HTTPS_PROXY
@@ -75,21 +76,13 @@ EOF
 chmod +x ./setproxy.sh
 . ./setproxy.sh
 
-wget http://mirror.archlinux.ikoula.com/archlinux/iso/2014.11.01/archlinux-bootstrap-2014.11.01-x86_64.tar.gz
-#wget http://10.61.3.151/rpc2?url=http://www.google.fr
-
-
-/usr/bin/bash
-
 echo '==> bootstrapping the base installation'
 /usr/bin/loadkeys fr
 /usr/bin/pacstrap    ${MNT_DIR} base base-devel
-/usr/bin/arch-chroot ${MNT_DIR} pacman -S --noconfirm gptfdisk openssh syslinux docker cloud-init
+/usr/bin/arch-chroot ${MNT_DIR} pacman -S --noconfirm gptfdisk openssh syslinux docker cloud-init wget fish nmap vagrant
 /usr/bin/arch-chroot ${MNT_DIR} syslinux-install_update -i -a -m
 /usr/bin/cat "${MNT_DIR}/boot/syslinux.cfg"
-#/usr/bin/sed -i 's/sda3/sda1/' "${MNT_DIR}/boot/syslinux/syslinux.cfg"
 /usr/bin/sed -i 's/TIMEOUT 50/TIMEOUT 10/' "${MNT_DIR}/boot/syslinux/syslinux.cfg"
-#/usr/bin/sed -i 's/ProxyServer\s*=\s*(.*)/ProxyServer=http://10.61.3.151:3128' "${MNT_DIR}/etc/pacman.conf"
 
 echo '==> generating the filesystem table'
 /usr/bin/genfstab -p ${MNT_DIR} > "${MNT_DIR}/etc/fstab"
@@ -97,7 +90,6 @@ echo '/swap-file none swap sw 0 0' >> "${MNT_DIR}/etc/fstab"
 
 echo '==> generating the system configuration script'
 /usr/bin/install --mode=0755 /dev/null "${MNT_DIR}${CONFIG_SCRIPT}"
-
 
 cat <<-EOF > "${MNT_DIR}${CONFIG_SCRIPT}"
 	/usr/bin/swapon ${SWAP_PARTITION}
@@ -130,7 +122,7 @@ cat <<-EOF > "${MNT_DIR}${CONFIG_SCRIPT}"
 	echo 'vagrant ALL=(ALL) NOPASSWD:	 ALL' >> /etc/sudoers.d/10_vagrant
 	/usr/bin/chmod 0440 /etc/sudoers.d/10_vagrant
 	/usr/bin/install --directory --owner=vagrant --group=users --mode=0700 /home/vagrant/.ssh
-	/usr/bin/curl --output /home/vagrant/.ssh/authorized_keys --location https://raw.github.com/mitchellh/vagrant/master/keys/vagrant.pub
+	#/usr/bin/curl --output /home/vagrant/.ssh/authorized_keys --location https://raw.github.com/oceanborn2/keys/oceanborn2.pub
 	/usr/bin/chown vagrant:users /home/vagrant/.ssh/authorized_keys
 	/usr/bin/chmod 0600 /home/vagrant/.ssh/authorized_keys
 
@@ -151,6 +143,7 @@ echo '==> entering chroot and configuring system'
 # http://comments.gmane.org/gmane.linux.arch.general/48739
 echo '==> adding workaround for shutdown race condition'
 /usr/bin/install --mode=0644 poweroff.timer "${MNT_DIR}/etc/systemd/system/poweroff.timer"
+/usr/bin/cp oceanborn2.pub "${MNT_DIR}/home/vagrant/.ssh/authorized_keys"
 
 echo '==> installation complete!'
 /usr/bin/sleep 3
