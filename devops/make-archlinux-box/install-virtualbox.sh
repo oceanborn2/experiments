@@ -57,21 +57,9 @@ echo "==> printing MTAB"
 cat /etc/mtab
 echo "==> printed MTAB"
 
-PROXYADR=192.168.1.12
-#PROXYADR=10.61.3.151
+#PROXYADR=192.168.1.12
+PROXYADR=10.61.3.151
 #ping -n 3 ${PROXYADR}
-
-cat <<EOF > setproxy.sh
-#!/bin/bash
-HTTP_PROXY="http://${PROXYADR}:3128"
-export HTTP_PROXY
-HTTPS_PROXY==$HTTP_PROXY
-export HTTPS_PROXY
-FTP_PROXY=$HTTP_PROXY
-export FTP_PROXY
-RSYNC_PROXY=$HTTP_PROXY
-export RSYNC_PROXY
-EOF
 
 chmod +x ./setproxy.sh
 . ./setproxy.sh
@@ -83,6 +71,8 @@ echo '==> bootstrapping the base installation'
 /usr/bin/arch-chroot ${MNT_DIR} syslinux-install_update -i -a -m
 /usr/bin/cat "${MNT_DIR}/boot/syslinux.cfg"
 /usr/bin/sed -i 's/TIMEOUT 50/TIMEOUT 10/' "${MNT_DIR}/boot/syslinux/syslinux.cfg"
+/usr/bin/cp setproxy.sh ${MNT_DIR}
+/usr/bin/chmod +x setproxy.sh ${MNT_DIR}
 
 echo '==> generating the filesystem table'
 /usr/bin/genfstab -p ${MNT_DIR} > "${MNT_DIR}/etc/fstab"
@@ -107,6 +97,7 @@ cat <<-EOF > "${MNT_DIR}${CONFIG_SCRIPT}"
 	/usr/bin/systemctl enable sshd.service
 
 	# VirtualBox Guest Additions
+	. ./setproxy.sh
 	/usr/bin/pacman -S --noconfirm linux-headers virtualbox-guest-utils virtualbox-guest-dkms
 	echo -e 'vboxguest\nvboxsf\nvboxvideo' > /etc/modules-load.d/virtualbox.conf
 	guest_version=\$(/usr/bin/pacman -Q virtualbox-guest-dkms | awk '{ print \$2 }' | cut -d'-' -f1)
@@ -123,6 +114,7 @@ cat <<-EOF > "${MNT_DIR}${CONFIG_SCRIPT}"
 	/usr/bin/chmod 0440 /etc/sudoers.d/10_vagrant
 	/usr/bin/install --directory --owner=vagrant --group=users --mode=0700 /home/vagrant/.ssh
 	#/usr/bin/curl --output /home/vagrant/.ssh/authorized_keys --location https://raw.github.com/oceanborn2/keys/oceanborn2.pub
+	/usr/bin/cat oceanborn2.pub > /home/vagrant/.ssh/authorized_keys
 	/usr/bin/chown vagrant:users /home/vagrant/.ssh/authorized_keys
 	/usr/bin/chmod 0600 /home/vagrant/.ssh/authorized_keys
 

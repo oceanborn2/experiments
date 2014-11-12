@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65fc7997-3a3e-44c4-9334-7a603c09369e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/présentations/devopskelkoov17slideshare-121109020005-phpapp02.pptx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/make-archlinux-box/oceanborn2.pub" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/make-archlinux-box/README.md" afterPath="$PROJECT_DIR$/make-archlinux-box/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/make-archlinux-box/setproxy.sh" />
       <change type="MODIFICATION" beforePath="D:/vagrant/projects/anvils-demo/Vagrantfile" afterPath="D:/vagrant/projects/anvils-demo/Vagrantfile" />
       <change type="MODIFICATION" beforePath="D:/vagrant/projects/coreos-vagrant/Vagrantfile" afterPath="D:/vagrant/projects/coreos-vagrant/Vagrantfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/use-archlinux-box/.vagrant/machines/default/virtualbox/action_set_name" afterPath="$PROJECT_DIR$/use-archlinux-box/.vagrant/machines/default/virtualbox/action_set_name" />
       <change type="MODIFICATION" beforePath="D:/vagrant/projects/anvils-demo/add-project.sh" afterPath="D:/vagrant/projects/anvils-demo/add-project.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/make-archlinux-box/arch-template.json" afterPath="$PROJECT_DIR$/make-archlinux-box/arch-template.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../packer-arch/arch-template.json" afterPath="$PROJECT_DIR$/../../packer-arch/arch-template.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/devops.iml" afterPath="$PROJECT_DIR$/.idea/devops.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/use-archlinux-box/.vagrant/machines/default/virtualbox/id" afterPath="$PROJECT_DIR$/use-archlinux-box/.vagrant/machines/default/virtualbox/id" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/use-archlinux-box/.vagrant/machines/default/virtualbox/index_uuid" afterPath="$PROJECT_DIR$/use-archlinux-box/.vagrant/machines/default/virtualbox/index_uuid" />
       <change type="MODIFICATION" beforePath="D:/vagrant/projects/anvils-demo/install-httpd.sh" afterPath="D:/vagrant/projects/anvils-demo/install-httpd.sh" />
       <change type="MODIFICATION" beforePath="D:/vagrant/projects/anvils-demo/install-rundeck.sh" afterPath="D:/vagrant/projects/anvils-demo/install-rundeck.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/make-archlinux-box/install-virtualbox.sh" afterPath="$PROJECT_DIR$/make-archlinux-box/install-virtualbox.sh" />
@@ -87,28 +87,7 @@
     <favorites_list name="devops" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="install-virtualbox.sh" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/make-archlinux-box/install-virtualbox.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9544236" vertical-offset="1906" max-vertical-offset="2720">
-              <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="arch-template.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/make-archlinux-box/arch-template.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.423077" vertical-offset="287" max-vertical-offset="1088">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -140,8 +119,9 @@
         <option value="$PROJECT_DIR$/make-archlinux-box/keep/preseed.cfg" />
         <option value="$PROJECT_DIR$/make-archlinux-box/notes.md" />
         <option value="$PROJECT_DIR$/make-archlinux-box/README.md" />
-        <option value="$PROJECT_DIR$/make-archlinux-box/arch-template.json" />
+        <option value="$PROJECT_DIR$/make-archlinux-box/setproxy.sh" />
         <option value="$PROJECT_DIR$/make-archlinux-box/install-virtualbox.sh" />
+        <option value="$PROJECT_DIR$/make-archlinux-box/arch-template.json" />
       </list>
     </option>
   </component>
@@ -233,24 +213,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="make-archlinux-box" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devops" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devops" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="make-archlinux-box" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keep" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -639,7 +601,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -656,7 +618,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24650572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17522465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17522465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Copy/Paste" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -711,7 +673,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920793" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24650572" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17522465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17522465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -752,6 +714,30 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/make-archlinux-box/install-virtualbox.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1598" max-vertical-offset="2584">
+          <caret line="94" column="26" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make-archlinux-box/arch-template.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make-archlinux-box/setproxy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="289">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/make-archlinux-box/arch-template.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
@@ -903,13 +889,13 @@
       </provider>
     </entry>
     <entry file="file://D:/vagrant/data/scripts/fetchCentosLatest.sh">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
           <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://D:/vagrant/data/scripts/fetchValtechImages.sh">
@@ -927,13 +913,13 @@
       </provider>
     </entry>
     <entry file="file://D:/vagrant/00-doc/DOCKERFILE BEST PRACTICES.txt">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="741">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://D:/vagrant/data/docker/valtech_centos_updated/Dockerfile">
@@ -996,7 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.8593955" vertical-offset="1415" max-vertical-offset="2176">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1025,7 +1010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
           <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,7 +1017,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="759">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,7 +1027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1055,7 +1037,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.142858" vertical-offset="0" max-vertical-offset="442">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1063,22 +1044,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="746">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make-archlinux-box/setproxy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.044678055" vertical-offset="0" max-vertical-offset="761">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/make-archlinux-box/arch-template.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.423077" vertical-offset="287" max-vertical-offset="1088">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5346939" vertical-offset="49" max-vertical-offset="1122">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/make-archlinux-box/install-virtualbox.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9544236" vertical-offset="1906" max-vertical-offset="2720">
-          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1298" max-vertical-offset="2584">
+          <caret line="94" column="26" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
           <folding />
         </state>
       </provider>
