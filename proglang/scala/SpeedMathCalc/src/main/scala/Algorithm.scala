@@ -1,6 +1,0 @@
-trait   Algorithm
-
-class Rule {
-
-}
-

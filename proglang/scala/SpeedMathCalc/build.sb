@@ -1,0 +1,14 @@
+lazy val root = (project in file(".")).
+  settings(
+    name := "SpeedMathCalc",
+    version := "1.0",
+    scalaVersion := "2.11.4"
+  )
+
+
+name := ""  
+
+version := "1.0"
+
+//dependencies += ""
+
