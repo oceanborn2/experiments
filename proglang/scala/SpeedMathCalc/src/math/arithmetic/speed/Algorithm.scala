@@ -1,6 +1,7 @@
 package math.arithmetic.speed
 
 trait NamedObject {
+  val id: String
   val name: String
   val description: String
 }
@@ -32,6 +33,7 @@ class VedicSystem extends SolutionSystem {
   //  val algorithms = {
   //    null -> new Array[Algorithm]() {}
   //  }
+
 
 }
 

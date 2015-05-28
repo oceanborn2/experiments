@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-FQDN='myarch.valtech.com'
+FQDN='devnode.valtech.com'
 KEYMAP='fr'
 LANGUAGE='fr_FR.UTF-8'
 PASSWORD=$(/usr/bin/openssl passwd -crypt 'vagrant')
@@ -66,13 +66,15 @@ chmod +x ./setproxy.sh
 
 echo '==> bootstrapping the base installation'
 /usr/bin/loadkeys fr
+/usr/bin/stty loadkeys fr
 /usr/bin/pacstrap    ${MNT_DIR} base base-devel
-/usr/bin/arch-chroot ${MNT_DIR} pacman -S --noconfirm gptfdisk openssh syslinux docker cloud-init wget fish nmap vagrant
+/usr/bin/arch-chroot ${MNT_DIR} pacman -S --noconfirm gptfdisk openssh syslinux docker cloud-init wget fish nmap vagrant openjdk gpg ghc ruby jdk7-openjdk jdk8-openjdk git apache php php-apache openldap
 /usr/bin/arch-chroot ${MNT_DIR} syslinux-install_update -i -a -m
 /usr/bin/cat "${MNT_DIR}/boot/syslinux.cfg"
 /usr/bin/sed -i 's/TIMEOUT 50/TIMEOUT 10/' "${MNT_DIR}/boot/syslinux/syslinux.cfg"
-/usr/bin/cp setproxy.sh ${MNT_DIR}
-/usr/bin/chmod +x setproxy.sh ${MNT_DIR}
+/usr/bin/cp setproxy.sh ${MNT_DIR}/etc/profile.d
+/usr/bin/chmod +x ${MNT_DIR}/etc/profile.d/setproxy.sh
+
 
 echo '==> generating the filesystem table'
 /usr/bin/genfstab -p ${MNT_DIR} > "${MNT_DIR}/etc/fstab"
@@ -82,6 +84,8 @@ echo '==> generating the system configuration script'
 /usr/bin/install --mode=0755 /dev/null "${MNT_DIR}${CONFIG_SCRIPT}"
 
 cat <<-EOF > "${MNT_DIR}${CONFIG_SCRIPT}"
+	. /etc/profile.d/setproxy.sh
+
 	/usr/bin/swapon ${SWAP_PARTITION}
 	echo '${FQDN}' > /etc/hostname
 	/usr/bin/ln -s /usr/share/zoneinfo/${TIMEZONE} /etc/localtime
@@ -97,7 +101,6 @@ cat <<-EOF > "${MNT_DIR}${CONFIG_SCRIPT}"
 	/usr/bin/systemctl enable sshd.service
 
 	# VirtualBox Guest Additions
-	. ./setproxy.sh
 	/usr/bin/pacman -S --noconfirm linux-headers virtualbox-guest-utils virtualbox-guest-dkms
 	echo -e 'vboxguest\nvboxsf\nvboxvideo' > /etc/modules-load.d/virtualbox.conf
 	guest_version=\$(/usr/bin/pacman -Q virtualbox-guest-dkms | awk '{ print \$2 }' | cut -d'-' -f1)
@@ -114,7 +117,8 @@ cat <<-EOF > "${MNT_DIR}${CONFIG_SCRIPT}"
 	/usr/bin/chmod 0440 /etc/sudoers.d/10_vagrant
 	/usr/bin/install --directory --owner=vagrant --group=users --mode=0700 /home/vagrant/.ssh
 	#/usr/bin/curl --output /home/vagrant/.ssh/authorized_keys --location https://raw.github.com/oceanborn2/keys/oceanborn2.pub
-	/usr/bin/cat oceanborn2.pub > /home/vagrant/.ssh/authorized_keys
+	#/usr/bin/cat oceanborn2.pub > /home/vagrant/.ssh/authorized_keys
+
 	/usr/bin/chown vagrant:users /home/vagrant/.ssh/authorized_keys
 	/usr/bin/chmod 0600 /home/vagrant/.ssh/authorized_keys
 
@@ -144,3 +148,4 @@ echo '==> installation complete!'
 /usr/bin/umount ${MNT_DIR}
 /usr/bin/swapoff ${SWAP_PARTITION}
 /usr/bin/systemctl reboot
+

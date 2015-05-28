@@ -1,0 +1,18 @@
+Version of session file format:
+               1
+Time of storage:
+               "Thu Apr  9 00:05:59 Paris, Madrid (heure d\146\233t\233) 2015"
+Layout:        TerminalP {paneGroups = fromList [], paneTabs = Just TopP, currentPage = 1, detachedId = Nothing, detachedSize = Nothing}
+Population:    [(Just (ErrorsSt ErrorsState),[]),(Just (LogSt LogState),[]),(Just (BufferSt (BufferState "D:\\GitHub\\experiments\\proglang\\haskell\\src\\maths\\Maths.hs" 229)),[]),(Just (WorkspaceSt WorkspaceState),[])]
+Window size:   (1600,878)
+Completion size:
+               (750,400)
+Workspace:     Just "D:\\GitHub\\experiments\\proglang\\haskell\\workspace.lkshw"
+Active pane:   Just "Log"
+Toolbar visible:
+               True
+FindbarState:  (True,FindState {entryStr = "", entryHist = [""], replaceStr = "", replaceHist = [], caseSensitive = False, entireWord = False, wrapAround = False, regex = False, lineNr = 1})
+Recently opened files:
+               ["D:\\GitHub\\experiments\\proglang\\haskell\\src\\maths\\Maths.hs","D:\\GitHub\\experiments\\proglang\\haskell\\Setup.hs","D:\\software\\haskell\\leksah\\leksah\\data\\welcome.txt"]
+Recently opened workspaces:
+               ["D:\\GitHub\\experiments\\proglang\\haskell\\workspace.lkshw"]

@@ -24,7 +24,7 @@
       ],
       "disk_size": 23000,
       "hard_drive_interface": "sata",
-      "ssh_wait_timeout": "120m",
+      "ssh_wait_timeout": "15m",
       "ssh_username": "root",
       "ssh_password": "vagrant",
       "shutdown_command": "systemctl start poweroff.timer"
@@ -45,7 +45,7 @@
         "/usr/bin/bash ./install-vmware.sh<enter>"
       ],
       "disk_size": 23000,
-      "ssh_wait_timeout": "120m",
+      "ssh_wait_timeout": "15m",
       "ssh_username": "root",
       "ssh_password": "vagrant",
       "shutdown_command": "systemctl start poweroff.timer"

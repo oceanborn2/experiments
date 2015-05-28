@@ -19,7 +19,7 @@ cp extra.db var/lib/pacman/sync/
 cp community.db var/lib/pacman/sync/
 
 
-    pacman -Sp --noconfirm cloud-init > pkglist
+create-arch-pkg-cache.shpacman -Sp --noconfirm cloud-init > pkglist
 
 
 #To update a New Arch Linux base system after installation you may enter

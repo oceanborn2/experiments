@@ -1,0 +1,10 @@
+Version of workspace file format:
+               1
+Time of storage:
+               "Thu Apr  9 00:01:09 Paris, Madrid (heure d\146\233t\233) 2015"
+Name of the workspace:
+               "workspace"
+File paths of contained packages:
+               ["src\\maths\\maths.cabal","src\\basic\\basic.cabal","haskell.cabal"]
+Maybe file path of an active package:
+               Just "src\\maths\\maths.cabal"
