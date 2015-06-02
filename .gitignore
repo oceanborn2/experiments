@@ -1,3 +1,10 @@
 ﻿/devops/docs/présentations
 
 /proglang/haskell/.cabal-sandbox
+/proglang/haskell/basic/.idea/basic.iml
+/proglang/haskell/.cabal-sandbox/*
+/proglang/haskell/.cabal-sandbox/bin/*.exe
+/proglang/haskell/.cabal-sandbox/doc/x86_64-windows-ghc-7.8.3/alex-3.1.4/*
+/proglang/haskell/.cabal-sandbox/doc/x86_64-windows-ghc-7.8.3/happy-1.19.5/*
+/proglang/haskell/.cabal-sandbox/logs/*.log
+/proglang/haskell/.cabal-sandbox/packages/*.cache
