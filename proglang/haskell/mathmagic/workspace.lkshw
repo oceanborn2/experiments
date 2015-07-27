@@ -1,10 +1,14 @@
 Version of workspace file format:
-               1
+               2
 Time of storage:
-               "Thu Apr  9 00:01:09 Paris, Madrid (heure d\146\233t\233) 2015"
+               "Tue Jul 21 16:42:40 Paris, Madrid (heure d\198\218t\218) 2015"
 Name of the workspace:
                "workspace"
 File paths of contained packages:
-               ["src\\maths\\maths.cabal","src\\basic\\basic.cabal","haskell.cabal"]
+               ["snippets\\snippets.cabal","core\\core.cabal","mathmagic.cabal","maths\\maths.cabal"]
 Maybe file path of an active package:
-               Just "src\\maths\\maths.cabal"
+               Just "core\\core.cabal"
+Maybe name of an active executable:
+               Nothing
+Version Control System configurations for packages:
+               fromList []

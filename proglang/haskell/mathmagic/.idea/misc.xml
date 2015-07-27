@@ -18,7 +18,10 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="GHC 7.8.3" project-jdk-type="GHC">
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/core/cabal.sandbox.config" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="GHC 7_10_1" project-jdk-type="GHC SDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

@@ -1,48 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CabalLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="45c68ead-b595-46e3-9b49-d811505f643e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/arithmetic/speed/AdditionProblem.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/arithmetic/speed/Algorithm.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/BinaryExpression.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/arithmetic/speed/ComputeEngine.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/arithmetic/speed/DivisionProblem.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/Expression.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/arithmetic/speed/MultiplicationProblem.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/arithmetic/speed/NamedObject.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/arithmetic/speed/Problem.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/arithmetic/speed/SolutionSystem.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/arithmetic/speed/SubtractionProblem.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/arithmetic/speed/TrachtenbergSystem.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/UnaryExpression.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/arithmetic/speed/VedicSystem.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../rust/tests.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../go/SquareRoot.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.dist-buildwrapper/.cabal-sandbox/add-source-timestamps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.dist-buildwrapper/.settings/org.eclipse.core.resources.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.dist-buildwrapper/src/mathmagic/dist/package.conf.inplace" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.dist-buildwrapper/dist/setup-config" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../rust/tests.rs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.dist-buildwrapper/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../scala/SpeedMathCalc/.idea/workspace.xml" />
+    <list default="true" id="47953ecf-831d-4eb9-b5b4-6a83e6a7f039" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/arithmetic/speed/AdditionProblem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/arithmetic/speed/Algorithm.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/BinaryExpression.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/arithmetic/speed/ComputeEngine.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/arithmetic/speed/DivisionProblem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/Expression.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/arithmetic/speed/MultiplicationProblem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/arithmetic/speed/NamedObject.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/arithmetic/speed/Problem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/arithmetic/speed/SolutionSystem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/arithmetic/speed/SubtractionProblem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/arithmetic/speed/TrachtenbergSystem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/UnaryExpression.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../scala/SpeedMathCalc/out/production/SpeedMathCalc/math/arithmetic/speed/VedicSystem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rust/tests.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SquareRoot.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../haskell/.dist-buildwrapper/.cabal-sandbox/add-source-timestamps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../haskell/.dist-buildwrapper/.settings/org.eclipse.core.resources.prefs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../haskell/.dist-buildwrapper/src/mathmagic/dist/package.conf.inplace" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../haskell/.dist-buildwrapper/dist/setup-config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../rust/tests.rs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../haskell/.dist-buildwrapper/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../scala/SpeedMathCalc/.idea/workspace.xml" />
       <change type="DELETED" beforePath="D:\GitHub\experiments\proglang\haskell\mathmagic\.idea\uiDesigner.xml" afterPath="" />
       <change type="DELETED" beforePath="D:\GitHub\experiments\proglang\haskell\mathmagic\Setup.hs" afterPath="" />
       <change type="DELETED" beforePath="D:\GitHub\experiments\proglang\haskell\mathmagic\cabal.sandbox.config" afterPath="" />
       <change type="DELETED" beforePath="D:\GitHub\experiments\proglang\haskell\mathmagic\snippets\Snippets.hs" afterPath="" />
       <change type="DELETED" beforePath="D:\GitHub\experiments\proglang\haskell\mathmagic\src\Core.hs" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maths/Main.hs" afterPath="$PROJECT_DIR$/maths/Main.hs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.hs" afterPath="$PROJECT_DIR$/src/Main.hs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mathmagic.cabal" afterPath="$PROJECT_DIR$/mathmagic.cabal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspace.lkshw" afterPath="$PROJECT_DIR$/workspace.lkshw" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../haskell/mathmagic/maths/Main.hs" afterPath="$PROJECT_DIR$/../haskell/mathmagic/maths/Main.hs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../haskell/mathmagic/src/Main.hs" afterPath="$PROJECT_DIR$/../haskell/mathmagic/src/Main.hs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../haskell/mathmagic/mathmagic.cabal" afterPath="$PROJECT_DIR$/../haskell/mathmagic/mathmagic.cabal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../haskell/mathmagic/.idea/misc.xml" afterPath="$PROJECT_DIR$/../haskell/mathmagic/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../haskell/mathmagic/workspace.lkshw" afterPath="$PROJECT_DIR$/../haskell/mathmagic/workspace.lkshw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../haskell/mathmagic/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../haskell/mathmagic/.idea/workspace.xml" />
     </list>
-    <ignored path="mathmagic.iws" />
+    <ignored path="go.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -57,66 +52,19 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DatabaseView">
-    <option name="FLATTEN" value="false" />
-    <option name="GROUP_BY_TYPE" value="true" />
-    <option name="SORT_CHILDREN" value="false" />
-    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="mathmagic" />
+    <favorites_list name="go" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="config" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/config">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Core.hs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/Core.hs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19565217">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Setup.hs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/Setup.hs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/maths/Main.hs" />
-        <option value="$PROJECT_DIR$/core/core.cabal" />
-        <option value="$PROJECT_DIR$/core/src/Core.hs" />
-        <option value="$PROJECT_DIR$/core/config" />
-      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
@@ -129,9 +77,6 @@
         <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
     </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState />
   </component>
   <component name="NamedScopeManager">
     <order />
@@ -165,74 +110,28 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mathmagic" />
+              <option name="myItemId" value="go" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mathmagic" />
+              <option name="myItemId" value="go" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mathmagic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mathmagic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mathmagic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maths" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mathmagic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mathmagic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mathmagic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mathmagic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="go" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -243,7 +142,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="settings.editor.selected.configurable" value="Haskell Tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -279,6 +178,37 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method />
     </configuration>
     <configuration default="true" type="ErlangApplicationRunConfiguration" factoryName="Erlang Application" show_console_on_std_err="false" show_console_on_std_out="false">
@@ -317,6 +247,35 @@
       </option>
       <method />
     </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="scriptName" value="" />
+      <option name="scriptArguments" value="" />
+      <option name="builderArguments" value="" />
+      <option name="goBuildBeforeRun" value="false" />
+      <option name="goOutputDir" value="" />
+      <option name="workingDir" value="" />
+      <option name="envVars" value="" />
+      <option name="goVetEnabled" value="false" />
+      <module name="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestConfiguration" factoryName="Go Test" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="envVars" value="" />
+      <option name="testRunnerArgs" value="" />
+      <option name="testTargetType" value="Package" />
+      <option name="packageName" value="" />
+      <option name="packageDir" value="" />
+      <option name="testFile" value="" />
+      <option name="testArgs" value="" />
+      <option name="workingDir" value="" />
+      <option name="executeWhat" value="Test" />
+      <option name="filter" value="" />
+      <option name="useShortRun" value="false" />
+      <option name="testBeforeBenchmark" value="false" />
+      <option name="goVetEnabled" value="false" />
+      <module name="" />
+      <method />
+    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -331,6 +290,37 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JRubyCucumberRunConfigurationType" factoryName="JRuby Cucumber">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-Dforce.jruby.jit=true -Djruby.debug.fullTrace=true" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -474,23 +464,18 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="45c68ead-b595-46e3-9b49-d811505f643e" name="Default" comment="" />
-      <created>1437496280639</created>
+      <changelist id="47953ecf-831d-4eb9-b5b4-6a83e6a7f039" name="Default" comment="" />
+      <created>1437906134808</created>
       <option name="number" value="Default" />
-      <updated>1437496280639</updated>
-      <workItem from="1437496285524" duration="217000" />
-      <workItem from="1437496521469" duration="2763000" />
-      <workItem from="1437575842019" duration="1478000" />
-      <workItem from="1437662172209" duration="1560000" />
-      <workItem from="1437677063134" duration="2731000" />
-      <workItem from="1437680232019" duration="122000" />
-      <workItem from="1437680373821" duration="2103000" />
-      <workItem from="1437756485275" duration="18000" />
+      <updated>1437906134808</updated>
+      <workItem from="1437906139496" duration="178000" />
+      <workItem from="1437939642094" duration="1671000" />
+      <workItem from="1437944690719" duration="347000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10992000" />
+    <option name="totallyTimeSpent" value="2196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
@@ -502,15 +487,15 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -519,12 +504,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -548,213 +530,24 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/Core.hs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/Setup.hs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/Core.hs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/Core.hs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/core.cabal">
+    <entry file="file://$PROJECT_DIR$/SquareRoot.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maths/Main.hs">
+    <entry file="file://$PROJECT_DIR$/GtkTest.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/cabal.sandbox.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/Core.hs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/Setup.hs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/core.cabal">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maths/Main.hs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/Core.hs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/Setup.hs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/core.cabal">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maths/Main.hs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/Core.hs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.2173913">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/core.cabal">
+    <entry file="file://$PROJECT_DIR$/SquareRoot.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maths/Main.hs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/Core.hs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/core.cabal">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24702774">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maths/Main.hs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13043478">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/cabal.sandbox.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54347825">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/Setup.hs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/Core.hs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19565217">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
+        <state vertical-scroll-proportion="0.5217391">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -787,7 +580,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>scala-sdk-2.11.6</last-edited>
+          <last-edited>groovy24</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -799,7 +592,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>GHC 7_10_1</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -811,7 +604,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>mathmagic</last-edited>
+          <last-edited>go</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -824,7 +617,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>GHC 7_10_1</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

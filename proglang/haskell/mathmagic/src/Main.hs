@@ -1,4 +1,5 @@
-import Core
+--import Core
+
 import Functions {- (isOdd, isEven) -}
 import System.Console.Haskeline
 import System.Random
@@ -6,7 +7,8 @@ import Data.List
 
 header = do
     putStrLn "MathMagic shell"
-    putStrLn "Pascal Munerot"
+    putStrLn "A REPL calculator for non conventional arithmetic (vedic, trachtenberg, ...)"
+    putStrLn "GNU 3.0 Licence (TODO)"
     putStrLn ""
 
 testOddEven = do
@@ -51,3 +53,5 @@ main = do
 --    print (show [1..1001])
     --print (show [1..1001])
     --print(show res)
+
+
