@@ -50,6 +50,12 @@ double(10)
 
 x = rand(5, 5)
 
+function f(local x::Number)
+  x^2+2x+3+sqrt(x)
+end
+
+println("f(10)=", f(10))
+
 # If you evaluate this you'll see "Matrix Float64, 5×5" pop up next to it.
 # A bold header like this indicates that you can click on the box
 # to expand it and see the whole matrix.
@@ -141,3 +147,4 @@ convert(Image, scale(foo_grid(500), 1/80))
 # of which are available from the help menu above.
 
 # Enjoy!
+

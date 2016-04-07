@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+const ϕ = golden
+
 function square(x::Number)
   x * x
 end
@@ -40,23 +41,7 @@ println(inverse(3.14))
 println(square(10))
 println(square(3.2))
 println(fib(10))
-=======
-const ϕ = golden
+println("32^2=", square(32))
 
-
-function square(x::num)
-	x*x
-end
-
-function fib(n::integer)
-	if (n<2) 
-		1
-	else
-		fib(n-2)+fib(n-1)
-	end
-end
-
-println("32^2=" * square(32))
-println("square(32.1)=" *square(32.1))
-println("square(ϕ)=" *square(ϕ))
->>>>>>> 3a6253de0044899ca36851129b00c70d00f69324
+println("square(32.1)=", square(32.1))
+println("square(ϕ)=", square(ϕ))

@@ -5,15 +5,15 @@ package core
 type MultiplierB2 uint64
 
 const (
-	ONE  Int = 1
-	KILO     = 1024
-	MEGA     = KILO * KILO
-	GIGA     = KILO * MEGA
-	TERA     = KILO * GIGA
-	PETA     = KILO * TERA
-	EXA      = KILO * PETA
-	ZETA     = KILO * EXA
-	YOTA     = KILO * ZETA
+	ONE  MultiplierB2 = 1
+	KILO              = 1024
+	MEGA              = KILO * KILO
+	GIGA              = KILO * MEGA
+	TERA              = KILO * GIGA
+	PETA              = KILO * TERA
+	EXA               = KILO * PETA
+	ZETA              = KILO * EXA
+	YOTA              = KILO * ZETA
 )
 
 type MultiplierB10 uint64
@@ -31,10 +31,11 @@ const (
 )
 
 type BitSize uint64
+type BitRate BitSize
 
 const (
 	by BitSize = 1         // 1 bit
-	kb         = KILO * by // 1 Kilo-Bit
+	kb         = KILO      // 1 Kilo-Bit
 	mb         = KILO * kb // 1 Mega-Bit
 	gb         = KILO * mb // 1 Giga-Bit
 	tb         = KILO * gb // 1 Tera-Bit
@@ -58,6 +59,9 @@ const (
 	YB          = KILO * ZB // 1 Yota-Bytes (check)
 )
 
+type StorageSpace ByteSize
+type MemorySpace ByteSize
+
 type Hertz uint64
 
 const (
@@ -71,8 +75,3 @@ const (
 	ZZ       = 1024 * EZ // 1 Zetta-Hertz (check) // overflows
 	YZ       = 1024 * ZZ // 1 Yota-Hertz (check)  // overflows
 )
-
-type StorageSpace ByteSize
-type MemorySpace ByteSize
-
-type BitRate BitSize

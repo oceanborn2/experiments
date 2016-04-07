@@ -2,7 +2,7 @@ import com.tinkerpop.blueprints.Graph
 import com.tinkerpop.blueprints.Vertex
 import com.tinkerpop.blueprints.impls.tg.TinkerGraph
 
-Graph graph = TinkerGraph.open(); (1)
+Graph graph = TinkerGraph.open();
 Vertex marko = graph.addVertex(T.label, "person", T.id, 1, "name", "marko", "age", 29); (2)
 Vertex vadas = graph.addVertex(T.label, "person", T.id, 2, "name", "vadas", "age", 27);
 Vertex lop = graph.addVertex(T.label, "software", T.id, 3, "name", "lop", "lang", "java");

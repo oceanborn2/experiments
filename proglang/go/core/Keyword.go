@@ -1,8 +1,6 @@
 // Keyword
 package core
 
-import "math/big"
-
 // Enumeration of keyword relationships
 type KeywordRel string
 

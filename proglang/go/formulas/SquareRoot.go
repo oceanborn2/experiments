@@ -1,8 +1,8 @@
-package main
+package formulas
 
-import (
-	"fmt"
-)
+//import (
+//	"fmt"
+//)
 
 func Sqrt(x float64) float64 {
 	var z = x
@@ -11,14 +11,13 @@ func Sqrt(x float64) float64 {
 	for delta > 0.000000001 {
 		delta = z
 		//fmt.Println("z:", z)
-		z = z - ((z*z-x)/(2*z))
+		z = z - ((z*z - x) / (2 * z))
 		delta = delta - z
 		//fmt.Println("delta:", delta)
 	}
 	return z
 }
 
-func main() {
-	fmt.Println(Sqrt(2))
-}
-
+//func main() {
+//	fmt.Println(Sqrt(2))
+//}
