@@ -43,12 +43,14 @@ let
 	println("gab:", gab)
 	println("gba:", gba)
 
-	# nheads=@parallel (+)  for i=1:1000_000_000_000_000_000
-	# 	1	  
-	# end
+	
+
+	nheads=@time @parallel (+)  for i=1:100
+	 	1	  
+	 end
 	# println("nheads1:", nheads)
 
-	nheads=@parallel (+) for i=1:1000_000
+	nheads=@time @parallel (+) for i=1:100
 		(gab, gba, a2, b2, ga, gb) = authDH(a,b,g,p)	  
 		if (gab == gba) 
 			1
@@ -57,7 +59,7 @@ let
 		end
 	end
 
-	println("sumOK", nheads)
+	
 
 end
 
