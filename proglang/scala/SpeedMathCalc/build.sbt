@@ -2,11 +2,11 @@ lazy val root = (project in file(".")).
   settings(
     name := "SpeedMathCalc",
     version := "1.0",
-    scalaVersion := "2.11.4"
+    scalaVersion := "2.11.8"
   )
 
 
-name := ""  
+name := "SpeedMatch"  
 
 version := "1.0"
 
