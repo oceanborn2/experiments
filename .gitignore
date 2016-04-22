@@ -8,3 +8,4 @@
 /proglang/haskell/.cabal-sandbox/doc/x86_64-windows-ghc-7.8.3/happy-1.19.5/*
 /proglang/haskell/.cabal-sandbox/logs/*.log
 /proglang/haskell/.cabal-sandbox/packages/*.cache
+/proglang/julia/doc
