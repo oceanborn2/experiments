@@ -1,23 +1,32 @@
-import macros, strutils, os, csv, streams #parsecsv, streams # re
+import macros, strutils, os, csv, streams, parseutils #parsecsv, streams # re
 
-# {.immediate.}
-#template newCurrency(iso2:array[2,char], iso3:array[3,char], symb:char):stmt =
+type
+  Currency = object of RootObj
+    iso2: string #array[2,char]
+    iso3: string #array[3,char]
+    num: string # numeric id value of the currency
+    minorUnit: int
+    symbol: string  #char
+    decomDate: string
 
-template newCurrency(iso2:string, iso3:string, symb:string):stmt =
-  let
-    iso2Expr = iso2 #parseStmt(iso2)
-    iso3Expr = iso3 #parseStmt(iso3)
-    symbExpr = symb #parseStmt(symb)
 
-  var code = """
-    const CURRENCY_$1_ISO2: string = "$1"
-    const CURRENCY_$2_ISO3: string = "$2"
-    const CURRENCY_$3_ISO2: string = "$3" """ % (iso2, iso3, symb)
+macro newCurrency(iso3, iso2, symb, labl: string, numi:int):stmt =
+  var source = ""
+  let 
+    miso2 = toUpper($iso2) # somehow Nim does not see string unless specified as $symbol (considers it as NimNode instead)
+    miso3 = toUpper($iso3)
+    msymb = toUpper($symb)
+    mlabl = toUpper($labl)
 
-  echo("code:" & code)
+  # The use of % does not work : bad use?
+  source &= "const CURRENCY_" & miso3 & "_ISO3: string = \"" & miso3 & "\"\n"
+  source &= "const CURRENCY_" & miso2 & "_ISO2: string = \"" & miso2 & "\"\n"
+  source &= "const CURRENCY_" & msymb & "_SYMB: string = \"" & msymb & "\"\n"
+  source &= "const CURRENCY_" & mlabl & "_LABEL: string = \"" & mlabl & "\"\n"
+  #source &= "const CURRENCY_" & miso3 & "_ID: int = " & $numi & "\n"
 
-  var res = parseStmt(code)
-  result = res
+  echo "creating: " & miso3
+  result = parseStmt(source)
 
 # Entity,Currency,AlphabeticCode,NumericCode,MinorUnit,WithdrawalDate,Remark
 let rawCurrenciesData="""
@@ -452,49 +461,27 @@ ZIMBABWE,Zimbabwe Dollar (new),ZWN,942,,2006-09
 ZIMBABWE,Zimbabwe Dollar,ZWR,935,,2009-06
 ZZ01_Gold-Franc,Gold-Franc,XFO,,,2006-10
 ZZ02_RINET Funds Code,RINET Funds Code,XRE,,,1999-11
-ZZ05_UIC-Franc,UIC-Franc,XFU,,,2013-11
+ZZ05_UIC-Franc,UIC-Franc,XFU,,,2013-11"""
 
-"""
+macro preprocessCurrencies(): stmt = 
+  let parsed = csv.parseAll(rawCurrenciesData,"Currencies",separator=',', quote='"')
+  for row in parsed:
+    let
+      ent =toUpper(row[0]) # entity = country or special names
+      labl=toUpper(row[1])
+      iso3=toUpper(row[2])
+      iso2=toUpper("I2")
+      symb=toUpper("C") 
+      #var dummy:int ==> Cannot evaluate numi at compile time (parseInt ?)
+      #let numi=parseInt(row[3],dummy)
+    
+    dumpTree(newCurrency(iso3, iso2, symb, labl, 0))
 
-type
-  Currency = object of RootObj
-    iso2: string #array[2,char]
-    iso3: string #array[3,char]
-    minorUnit: int
-    symbol: string  #char
+newCurrency("iso3", "iso2", "symb", "labl", 0) #, numi)
+newCurrency("EU1", "E1", "€", "Euro", 0) #, numi)
 
+when isMainModule:
+  echo(CURRENCY_ISO3_ISO3)  
+  echo(CURRENCY_€_SYMB) # will probably not work properly due to Nim string being 1 byte - need to use a widestring
+  discard #echo CURRENCY_EUR_ISO3
 
-
-let parsed = csv.parseAll(rawCurrenciesData,"Currencies",separator=',', quote='"')
-for row in parsed:
-  let
-    iso2=row[2]
-    iso3="test"
-    symb="c"
-
-  echo(iso2)
-  newCurrency(iso2, iso3, symb)
-
-#echo (parsed)
-
-#let quotedStringOrCommaRE = re"(,|""[^""]*"")"
-#let quotedStringOrCommaRE = re"(""?[^,""]*""|,)"
-# removed const as it causes a VM (i.e. nim interpreter at compile time to return this error: VM is not allowed to 'cast'
-
-#var cvp: CsvParser
-#var sst = newStringStream(rawCurrenciesData)  #var s = newFileStream(paramStr(1), fmRead)
-#if sst == nil: quit("cannot read the string list")
-
-#open(cvp, sst)  # open(cvp, cast[Stream](sst))
-#while readRow(cvp):
-#  echo join(fields,"|")
-#  for val in items(x.row):
-#    echo "##", val, "##"
-#close(cvp)
-
-#for row in  rawCurrenciesData.split("\r\n"):
-#  var fields = row.split("""[^""]*"")"
-#  echo fields.join("|")
-  #echo join(fields,'|')
-
-#newCurrency("EUR","I","€")
