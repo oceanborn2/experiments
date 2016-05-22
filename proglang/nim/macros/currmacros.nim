@@ -12,7 +12,7 @@ type
 
 macro newCurrency(iso3, iso2, symb, labl: string, numi:int):stmt =
   var source = ""
-  let 
+  let
     miso2 = toUpper($iso2) # somehow Nim does not see string unless specified as $symbol (considers it as NimNode instead)
     miso3 = toUpper($iso3)
     msymb = toUpper($symb)
@@ -463,7 +463,7 @@ ZZ01_Gold-Franc,Gold-Franc,XFO,,,2006-10
 ZZ02_RINET Funds Code,RINET Funds Code,XRE,,,1999-11
 ZZ05_UIC-Franc,UIC-Franc,XFU,,,2013-11"""
 
-macro preprocessCurrencies(): stmt = 
+macro preprocessCurrencies(): stmt =
   let parsed = csv.parseAll(rawCurrenciesData,"Currencies",separator=',', quote='"')
   result = newNimNode(nnkStmtList)
   for row in parsed:
@@ -472,18 +472,19 @@ macro preprocessCurrencies(): stmt =
       labl=toUpper(row[1])
       iso3=toUpper(row[2])
       iso2=toUpper("I2")
-      symb=toUpper("C") 
+      symb=toUpper("C")
       #var dummy:int ==> Cannot evaluate numi at compile time (parseInt ?)
       #let numi=parseInt(row[3],dummy)
 
     var stSection = newNimNode(nnkStmtList)
+
     result.add(nil) #newCurrency(iso3, iso2, symb, labl, 0))
 
 newCurrency("iso3", "iso2", "symb", "labl", 0) #, numi)
 newCurrency("EU1", "E1", "€", "Euro", 0) #, numi)
 
 when isMainModule:
-  echo(CURRENCY_ISO3_ISO3)  
+  echo(CURRENCY_ISO3_ISO3)
   echo(CURRENCY_€_SYMB) # will probably not work properly due to Nim string being 1 byte - need to use a widestring
   discard #echo CURRENCY_EUR_ISO3
 
