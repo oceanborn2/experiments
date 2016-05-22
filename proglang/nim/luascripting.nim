@@ -33,7 +33,7 @@ proc runScript*(script:string) : cint {. cdecl .} =  #, context:PState):cint  = 
   luaEngine.openLibs
   luaEngine.bindEnum(YesOrNo)
   luaEngine.bindFunction(sample)
-  luaEngine.bindFunction(server)
+  luaEngine.bindFunction(car)
   echo "\lrunning script : " & script
   result = luaEngine.dostring(script)
   luaEngine.close()
