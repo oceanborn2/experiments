@@ -1,5 +1,5 @@
 type
-  Directions = enum North, South, East, West {. pure .}
+  Directions {.pure.} = enum North, South, East, West 
     ##  Directions
 
   DirectionsNotPure = enum dnNorth, dnSouth, dnEast, dnWest
