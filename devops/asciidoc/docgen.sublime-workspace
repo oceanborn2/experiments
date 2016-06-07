@@ -1,0 +1,547 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Fi",
+				"FieldDef"
+			],
+			[
+				"fie",
+				"fields"
+			],
+			[
+				"tb",
+				"tableName"
+			],
+			[
+				"N",
+				"NOT"
+			],
+			[
+				"cre",
+				"createTable"
+			],
+			[
+				"ta",
+				"tableName"
+			],
+			[
+				"Arch",
+				"ArchitectureBook"
+			],
+			[
+				"ar",
+				"archBook"
+			],
+			[
+				"Ar",
+				"ArchitectureBook"
+			],
+			[
+				"testS",
+				"testString"
+			],
+			[
+				"en",
+				"encrypt"
+			],
+			[
+				"encr",
+				"encryption"
+			],
+			[
+				"si",
+				"sizehint"
+			],
+			[
+				"Uint",
+				"UInt64"
+			],
+			[
+				"M",
+				"MultiplierB2"
+			],
+			[
+				"type",
+				"typealiases	(archmodel.jl)"
+			],
+			[
+				"Keyw",
+				"KeywordRelationship"
+			],
+			[
+				"Ke",
+				"KeywordRelationship"
+			],
+			[
+				"const",
+				"constants"
+			],
+			[
+				"ARCHW",
+				"ARCHWIZARD_CODENAME"
+			],
+			[
+				"IP",
+				"IPv6"
+			],
+			[
+				"Ui",
+				"uint64"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/NimLime/Support/Nim.sublime-build",
+					""
+				],
+				[
+					"Packages/NimLime/Support/Nim.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/NimLime/Support/Nim.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Rust/Rust.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust/Rust.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/Rust/Rust.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Rust/Rust.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust/Rust.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/Rust/Rust.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 152.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"renam",
+				"ANF: Rename File"
+			],
+			[
+				"pac",
+				"Preferences: Settings - Default"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"pack",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"",
+				"Nim: List Nimble Package"
+			],
+			[
+				"inst",
+				"UnicodeMath: Insert"
+			],
+			[
+				"install",
+				"Nim: Install Nimble Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"rust",
+				"Rust Code Formatter: Format Selection"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"scala",
+				"Set Syntax: Scala"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/pascal/asciidoc/src"
+	],
+	"file_history":
+	[
+		"/home/pascal/asciidoc/src/links.md",
+		"/home/pascal/asciidoc/build.xml",
+		"/home/pascal/asciidoc/src/long-activity-description.puml",
+		"/home/pascal/asciidoc/src/activity-branches.fr",
+		"/home/pascal/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/pascal/asciidoc/manpage.log",
+		"/home/pascal/asciidoc/src/syntax.adoc",
+		"/home/pascal/asciidoc/src/demo.adoc",
+		"/home/pascal/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/pascal/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/D/software/syncthing/README.txt",
+		"/C/Users/pascal.munerot/Downloads/ids - v1 2016.02.14 16.22 pascal.munerot@gmail.com's version.txt",
+		"/C/Users/pascal.munerot/Downloads/ids - v2 2016.02.14 17.27 pascal.munerot@gmail.com's version.txt",
+		"/D/stronghold/tools/syncthing/ids.txt",
+		"/D/stronghold/tools/syncthing/HLOAFLA-G5UYJVJ-MLRXYWJ-XUN3SW5-7Z557F3-YRBSBPL-44 pcvaltech",
+		"/D/Projects/ArchWizard/project/db/createDB.nim",
+		"/D/Projects/ArchWizard/project/model/model.nim",
+		"/D/Projects/ArchWizard/project/macros/class.nim",
+		"/D/Projects/ArchWizard/project/ArchWizard.nimble",
+		"/D/Projects/ArchWizard/project/ArchWizard.nim",
+		"/D/software/Nim/examples/maximum.nim",
+		"/D/software/Nim/examples/keyval2.nim",
+		"/D/software/Nim/examples/allany.nim",
+		"/D/software/Nim/examples/keyval.nim",
+		"/D/software/Nim/examples/cgiex.nim",
+		"/D/software/Nim/examples/debugging.nim",
+		"/D/software/Nim/examples/filterex.nim",
+		"/D/software/Nim/examples/fizzbuzz.nim",
+		"/D/software/Nim/examples/hallo.nim",
+		"/D/software/Nim/examples/htmlrefs.nim",
+		"/D/software/Nim/examples/htmltitle.nim",
+		"/D/software/Nim/examples/httpserver2.nim",
+		"/D/software/Nim/examples/c++iface/irrlichtex.nim",
+		"/D/software/Nim/config/nim.cfg",
+		"/D/software/Nim/config/nimdoc.tex.cfg",
+		"/D/software/Nim/config/nimdoc.cfg",
+		"/D/software/Archi/.eclipseproduct",
+		"/D/Projects/ArchWizard/specs/ArchWizard global use cases and features.mdown",
+		"/D/Projects/ArchWizard/specs/Arch - Éléments supplémentaires.md",
+		"/D/Projects/ArchWizard/specs/Compléments ArchWizard.md",
+		"/D/Backups/ArchWizard/archwizard.xml",
+		"/C/Users/pascal.munerot/AppData/Roaming/Sublime Text 3/Packages/NimLime/NimLime.sublime-settings",
+		"/D/Projects/ArchWizard/project/model.nim",
+		"/D/Projects/ArchWizard/prototypes/src/main/wxpython/ArchWizardprefDialog.py",
+		"/D/Projects/ArchWizard/prototypes/src/main/wxpython/ArchWizard.py",
+		"/D/Projects/ArchWizard/prototypes/src/main/wxpython/ArchWizardArchitectWizard.py",
+		"/D/Projects/ArchWizard/prototypes/src/main/wxpython/ArchWizardAboutDialog.py",
+		"/D/temp/index.txt",
+		"/C/Users/pascal.munerot/Downloads/juliareleases.asc",
+		"/D/GitHub/experiments/proglang/julia/Gtk_1.jl",
+		"/D/Projects/ArchWizard/prototypes/src/main/rust/model.rs",
+		"/D/Projects/ArchWizard/prototypes/src/main/rust/ArchWizard.toml",
+		"/D/Projects/ArchWizard/project/Cargo.toml",
+		"/D/temp/WN2000RPT_disable_dhcp server.txt",
+		"/D/Projects/ArchWizard/project/project-description.md",
+		"/C/Users/pascal.munerot/AppData/Roaming/Sublime Text 3/Packages/RustCodeFormatter/RustCodeFormatter.sublime-settings",
+		"/C/Users/pascal.munerot/AppData/Roaming/Sublime Text 3/Packages/BeautifyRust/BeautifyRust.sublime-settings",
+		"/C/Users/pascal.munerot/AppData/Roaming/Sublime Text 3/Packages/RustAutoComplete/Preferences.sublime-settings",
+		"/D/Projects/ArchWizard/project/src/core/Keyword.go",
+		"/C/Users/pascal.munerot/Downloads/pascal.munerot@gmail.com (0xDF4AB6BF) rev.asc",
+		"/D/Projects/ArchWizard/prototypes/src/main/julia/dsl/Realm.jl",
+		"/D/GitHub/stronghold/gpg/pascal.munerot@gmail.com (0xFF645F5B) rev.asc",
+		"/D/Projects/ArchWizard/prototypes/src/main/julia/consts.jl",
+		"/D/Projects/ArchWizard/prototypes/src/main/julia/typealiases.jl",
+		"/D/Projects/ArchWizard/prototypes/src/main/julia/archmodel.jl",
+		"/D/GitHub/co/QuantEcon.jl/examples/beta_binomial.jl",
+		"/D/GitHub/co/QuantEcon.jl/examples/illustrates_lln.jl",
+		"/D/GitHub/co/QuantEcon.jl/examples/illustrates_clt.jl",
+		"/D/GitHub/co/QuantEcon.jl/src/models/asset_pricing.jl",
+		"/D/GitHub/co/QuantEcon.jl/src/models/lucastree.jl",
+		"/D/GitHub/co/QuantEcon.jl/src/models/career.jl",
+		"/D/Projects/ArchWizard/prototypes/src/main/julia/encryption/encryption.jl",
+		"/D/Projects/ArchWizard/prototypes/src/main/julia/encryption/test.txt",
+		"/D/Projects/ArchWizard/references/julia/Mastering Julia/Chapter 2/pgmfile.jl",
+		"/C/Users/pascal.munerot/.julia/v0.4/BinDeps/test/runtests.jl",
+		"/C/Users/pascal.munerot/.julia/v0.4/Memoize/test/runtests.jl",
+		"/C/Users/pascal.munerot/.julia/v0.4/Memoize/src/Memoize.jl",
+		"/C/Users/pascal.munerot/.julia/v0.4/BinDeps/test/testscripts/simplebuild/liba/liba.c",
+		"/D/Projects/ArchWizard/prototypes/src/main/julia/constants.jl",
+		"/D/GitHub/julia/examples/clustermanager/0mq/ZMQCM.jl",
+		"/D/GitHub/julia/examples/clustermanager/0mq/head.jl",
+		"/D/GitHub/julia/examples/embedding.c",
+		"/C/Users/pascal.munerot/.julia/v0.4/REPLCompletions/test/runtests.jl",
+		"/C/Users/pascal.munerot/.julia/v0.4/SHA/test/runtests.jl",
+		"/C/Users/pascal.munerot/.julia/v0.4/SHA/test/perf.jl",
+		"/C/Users/pascal.munerot/.julia/v0.4/SHA/src/SHA.jl",
+		"/C/Users/pascal.munerot/.julia/v0.4/SHA/src/sha1.jl",
+		"/C/Users/pascal.munerot/.julia/v0.4/SHA/src/base_functions.jl",
+		"/C/Users/pascal.munerot/.julia/v0.4/SHA/src/common.jl",
+		"/C/Users/pascal.munerot/.julia/v0.4/Docile/docs/syntax.md",
+		"/C/Users/pascal.munerot/.julia/v0.4/Docile/docs/api/Docile.md",
+		"/C/Users/pascal.munerot/.julia/lib/v0.4/Cairo.ji",
+		"/C/Users/pascal.munerot/.julia/lib/v0.4/ZMQ.ji",
+		"/D/Projects/ArchWizard/prototypes/src/main/julia/utils.jl",
+		"/D/software/julia/share/julia/examples/modint.jl",
+		"/D/software/julia/share/julia/examples/juliatypes.jl",
+		"/C/Users/pascal.munerot/AppData/Local/Temp/Temp1_Julietta.jl-master.zip/Julietta.jl-master/src/sourcedocument.jl",
+		"/C/Users/pascal.munerot/AppData/Local/Temp/Temp1_Julietta.jl-master.zip/Julietta.jl-master/src/run_julietta.jl",
+		"/C/Users/pascal.munerot/AppData/Local/Temp/Temp2_Julietta.jl-master.zip/Julietta.jl-master/src/pkgviewer.ui",
+		"/C/Users/pascal.munerot/AppData/Local/Temp/Temp1_Julietta.jl-master.zip/Julietta.jl-master/src/methodviewer.ui",
+		"/D/Projects/ArchWizard/references/julia/Learn Julia/IDS_SourceCode/INDEX.txt",
+		"/C/Users/pascal.munerot/Desktop/formatting.jl",
+		"/D/Projects/ArchWizard/references/julia/learnjulia.jl",
+		"/D/Projects/ArchWizard/prototypes/src/main/julia/core/kernel.jl",
+		"/D/Projects/ArchWizard/references/julia/Getting Started with Julia/4795OS_05_Codes/word_frequency.jl",
+		"/D/Projects/ArchWizard/references/julia/Getting Started with Julia/4795OS_04_Codes/tasks.jl",
+		"/D/Projects/ArchWizard/references/julia/Getting Started with Julia/4795OS_07_Codes/expressions.jl",
+		"/D/Projects/ArchWizard/references/julia/IDS_SourceCode/Chapter 9/medicines.csv",
+		"/D/Projects/ArchWizard/model/xsd/archi.xml",
+		"/C/Users/pascal.munerot/Downloads/Geany mktags",
+		"/D/Projects/ArchWizard/prototypes/src/main/dsl/architecture.archwiz",
+		"/D/Projects/ArchWizard/prototypes/src/main/julia/main.jl",
+		"/D/Projects/ArchWizard/prototypes/src/main/julia/archmodel - pascal.munerot@gmail.com's conflict 12.14.2015_21.51.04.jl",
+		"/D/Projects/ArchWizard/prototypes/src/main/julia/main - pascal.munerot@gmail.com's conflict 12.14.2015_21.51.04.jl",
+		"/D/Projects/ArchWizard/prototypes/src/main/julia/tenum.jl",
+		"/C/Users/pascal.munerot/AppData/Roaming/Sublime Text 3/Packages/IJulia/Default (Windows).sublime-keymap",
+		"/C/Users/pascal.munerot/AppData/Roaming/Sublime Text 3/Packages/IJulia/Default (OSX).sublime-keymap",
+		"/C/Users/pascal.munerot/AppData/Roaming/Sublime Text 3/Packages/IJulia/Default (Linux).sublime-keymap",
+		"/C/Users/pascal.munerot/AppData/Roaming/Sublime Text 3/Packages/IJulia/__init__.py",
+		"/C/Users/pascal.munerot/AppData/Roaming/Sublime Text 3/Packages/IJulia/.no-sublime-package",
+		"/C/Users/pascal.munerot/AppData/Roaming/Sublime Text 3/Packages/IJulia/test.jl",
+		"/C/Users/pascal.munerot/AppData/Roaming/Sublime Text 3/Packages/IJulia/Kernel.py",
+		"/C/Users/pascal.munerot/AppData/Roaming/Sublime Text 3/Packages/IJulia/IJulia.py",
+		"/C/Users/pascal.munerot/AppData/Roaming/Sublime Text 3/Packages/IJulia/julia-build.sublime-build",
+		"/C/Users/pascal.munerot/AppData/Roaming/Sublime Text 3/Packages/IJulia/JuliaSyntax.py",
+		"/C/Users/pascal.munerot/AppData/Roaming/Sublime Text 3/Packages/IJulia/Default.sublime-commands",
+		"/C/Users/pascal.munerot/AppData/Roaming/Sublime Text 3/Packages/IJulia/Main.sublime-menu",
+		"/C/Users/pascal.munerot/AppData/Roaming/Sublime Text 3/Packages/IJulia/package-metadata.json"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"//",
+			"TEnum",
+			"0.3",
+			"julia> ",
+			"\n  "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"#",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 391.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/NimLime/Support/Nim.sublime-build",
+	"project": "docgen.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 242.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 315.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

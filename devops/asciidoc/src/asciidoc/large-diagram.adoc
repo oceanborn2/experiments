@@ -1,0 +1,132 @@
+= Large diagram test
+Pascal Munerot
+v1.0, 2016-06-04
+
+:doctype: book
+:keywords: landscape asciidoc poc
+:page-layout: book
+:imagesdir: ../../out
+:toc: left
+:description: this is to check if it is possible to render in landscape and possibly page size larger than A4
+
+
+.An example table
+[width="100%",options="header"]
+|==============================================
+| Option          | Description
+| -a 'USER GROUP' | Add 'USER' to 'GROUP'.
+| -R 'GROUP'      | Disables access to 'GROUP'.
+|==============================================
+
+
+.table with headers
+[options="header"]
+|===
+|Header 1 |Header 2 |Header 3
+|Column 1, row 1
+|Column 2, row 1
+|Column 3, row 1
+
+|Column 1, row 2
+|Column 2, row 2
+|Column 3, row 2
+
+|Column 1, row 3
+|Column 2, row 3
+|Column 3, row 3
+|===
+
+```
+[listing]
+....
+puts "Hello, World!"
+....
+```
+
+```
+[source,ruby]
+puts "Hello, World!"
+
+The First Chapter
+-----------------
+Chapters can contain sub-sections nested up to three deep.
+footnote:[An example footnote.]
+indexterm:[Example index entry]
+
+Chapters can have their own bibliography, glossary and index.
+
+And now for something completely different: ((monkeys)), lions and
+tigers (Bengal and Siberian) using the alternative syntax index
+entries.
+(((Big cats,Lions)))
+(((Big cats,Tigers,Bengal Tiger)))
+(((Big cats,Tigers,Siberian Tiger)))
+Note that multi-entry terms generate separate index entries.
+
+Here are a couple of image examples: an image:images/smallnew.png[]
+example inline image followed by an example block image:
+
+.largediag block image
+image::../../out/grouping-components.png[Large diagram]
+
+
+The Third Chapter
+-----------------
+Book chapters are at level 1 and can contain sub-sections.
+
+
+:numbered!:
+
+[appendix]
+Appendix
+----------------
+One or more optional appendixes go here at section level 1.
+
+Appendix Sub-section
+~~~~~~~~~~~~~~~~~~~
+Sub-section body.
+
+[bibliography]
+Example Bibliography
+--------------------
+The bibliography list is a style of AsciiDoc bulleted list.
+
+[bibliography]
+.Books
+- [[[taoup]]] Eric Steven Raymond. 'The Art of Unix
+  Programming'. Addison-Wesley. ISBN 0-13-142901-9.
+- [[[walsh-muellner]]] Norman Walsh & Leonard Muellner.
+  'DocBook - The Definitive Guide'. O'Reilly & Associates. 1999.
+  ISBN 1-56592-580-7.
+
+[bibliography]
+.Articles
+- [[[abc2003]]] Gall Anonim. 'An article', Whatever. 2003.
+
+
+[glossary]
+Example Glossary
+----------------
+Glossaries are optional. Glossaries entries are an example of a style
+of AsciiDoc labeled lists.
+
+[glossary]
+A glossary term::
+  The corresponding (indented) definition.
+
+A second glossary term::
+  The corresponding (indented) definition.
+
+
+[colophon]
+Example Colophon
+
+
+[index]
+Example Index
+-------------
+////////////////////////////////////////////////////////////////
+The index is normally left completely empty, it's contents being
+generated automatically by the DocBook toolchain.
+////////////////////////////////////////////////////////////////
+

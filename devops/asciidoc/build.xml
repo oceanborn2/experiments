@@ -1,0 +1,53 @@
+<project name="text-formats" default="main" basedir=".">
+
+    <property name="pandoc" value="/usr/bin/pandoc"/>
+
+    <taskdef name="plantuml" classname="net.sourceforge.plantuml.ant.PlantUmlTask" classpath="lib/plantuml.jar"/>
+    <taskdef name="asciidoc" classname="net.sourceforge.plantuml.ant.PlantUmlTask" classpath="lib/plantuml.jar"/>
+
+    <target name="clean">
+        <delete dir="out"/>
+        <mkdir dir="out"/>
+    </target>
+
+
+    <target name="pandoc">
+        <exec executable="${pandoc}">
+            <arg value="--to=${otype}"/>
+            <arg value="--from=markdown"/>
+            <arg value="-o ${ofile}"/>
+            <arg value="${oinput}"/>
+            <arg value="--data-dir=out"/>
+        </exec>
+    </target>
+
+    <target name="plantuml">
+        <!-- java -jar plantuml.jar -charset UTF-8 files.txt -->
+        <!--plantuml dir="./src" charset="UTF-8" output="out"/-->
+        <plantuml charset="UTF-8" output="../../out" format="png">
+            <fileset dir="./src">
+                <include name="**/*.puml"/>
+                <include name="**/*.java"/>
+                <exclude name="**/*Test.java"/>
+            </fileset>
+        </plantuml>
+    </target>
+
+    <target name="asciidoc">
+        
+    </target>
+
+    <target name="main" depends="clean">
+
+        <antcall target="plantuml"/>
+
+        <antcall target="pandoc">
+            <param name="oinput" value="links.md"/>
+            <param name="otype" value="docx"/>
+            <param name="ofile" value="links.docx"/>
+        </antcall>
+
+    </target>
+
+
+</project>

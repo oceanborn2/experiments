@@ -1,0 +1,26 @@
+@startuml
+skinparam backgroundColor #AAFFFF
+skinparam activity {
+StartColor red
+BarColor SaddleBrown
+EndColor Silver
+BackgroundColor Peru
+BackgroundColor<< Begin >> red
+BorderColor Peru
+FontName Impact
+}
+(*) --> "Climbs on Platform" << Begin >>
+--> === S1 ===
+--> Bows
+--> === S2 ===
+--> WavesArmes
+--> (*)
+@enduml
+
+@startuml
+'Default is skinparam activityShape roundBox
+skinparam activityShape octagon
+(*) --> "First Activity"
+"First Activity" --> (*)
+@enduml
+

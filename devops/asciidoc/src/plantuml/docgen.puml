@@ -1,0 +1,11 @@
+@startuml
+    asciidoc->html : \nasciidoc
+    asciidoc->docbook: \nasciidoc
+    docbook->pdf : pdflatex or fop
+    note right
+        test
+    end note
+    docbook->html
+    a-a #ffffff:  ""
+
+@enduml
