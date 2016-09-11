@@ -1,5 +1,6 @@
-﻿/devops/docs/présentations
-
+﻿nimcache/
+/devops/docs/présentations
+/proglang/nim/nimcache
 /proglang/haskell/.cabal-sandbox
 /proglang/haskell/basic/.idea/basic.iml
 /proglang/haskell/.cabal-sandbox/*
