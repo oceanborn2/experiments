@@ -1,0 +1,36 @@
+@startuml
+'should not be a state diagram?
+
+'(*)-->source
+partition source {
+':markdown;
+    (*)  --> markdown
+    (*)  --> reStructured
+    (*)  --> asciidoc
+}
+
+partition asciidoc #lightblue {
+    asciidoc --> [a2x]html
+    asciidoc --> [a2x]docbook
+
+}
+
+partition doctree {
+    doctree-->asciidoc
+    doctree-->html
+    markdown-->[pandoc]doctree
+    reStructured-->[pandoc]doctree
+    html->[pandoc]doctree
+}
+
+partition latex {
+    doctree --> [fop      ]pdf
+    doctree --> [pandoc     ]pdf
+    docbook --> [latex]pdf
+    docbook --> [latex]ps
+}
+
+ps-->(*)
+pdf -->(*)
+
+@enduml

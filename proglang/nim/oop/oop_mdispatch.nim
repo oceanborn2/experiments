@@ -13,35 +13,50 @@ type
   Plane = ref object of Vehicle
 
 
-method toString*(v:Vehicle):string =
+method toString*(v:Vehicle):string {.base.} =
   result = '(' & repr(v) & ')'
 
-method collide*(a, b: Vehicle) {.inline.} =
+method collide*(a, b: Vehicle) {.base.} =
   quit "to override!"
 
 
 method collide*(a: Vehicle, b: Car) {.inline.} =
-  echo "collision between " & a.toString & " and " & b.toString
+  echo "*1 - collision between " & a.toString & " and " & b.toString
 
 method collide*(a: Car, b: Vehicle) {.inline.} =
-  echo "collision occurred between " & a.toString & " and " & b.toString
+  echo "*2 - collision occurred between " & a.toString & " and " & b.toString
 
 
-method takeOff*(p:Plane) {.inline.}=
+method takeOff*(p:Plane) {.base.}=
   echo "taking off " & p.toString
 
+method land*(p:Vehicle) {.base.}=
+  echo "landing a vehicle: " & p.toString
+
 method land*(p:Plane) {.inline.}=
-  echo "landing " & p.toString
+  echo "landing plane " & p.toString
 
 method land*(p:Boat) {.inline.}=
-  echo "landing " & p.toString
+  echo "landing boat " & p.toString
 
+
+var o1: Boat
+new o1
+o1.name = "Boat"
+
+var o2: Plane
+new o2
+o2.name = "Plane"
+
+o1.land()
+o2.land()
 
 var car1, car2: Car
 var truck:Truck
 
 new car1
 car1.name = "car1-manual-steering"
+car1.land()
 
 new car2
 new truck
