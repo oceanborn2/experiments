@@ -1,6 +1,0 @@
-type
-  Multipliable = interface
-    # some definition
-  MyInt = int implements Multipliable
-echo MyInt(5).square  # works
-echo 5.square # compile-time error: int is not Multipliable
