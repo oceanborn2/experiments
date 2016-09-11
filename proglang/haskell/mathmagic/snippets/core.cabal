@@ -1,0 +1,32 @@
+name: Core
+version: 0.1.0.0
+cabal-version: >=1.6
+build-type: Simple
+license: BSD3
+license-file: LICENSE
+copyright: (c) Pascal Munerot
+maintainer: Pascal Munerot <pascal.munerot@gmail.com>
+stability: stable
+homepage: http://pascal.munerot.net/public/experiments/mathmagic
+bug-reports: mailto:pascal.munerot@gmail.com
+synopsis: Core modules for mathmagics
+description: This module contains core features needed to map concepts
+category: Console, Math
+author: Pascal Munerot
+data-dir: ""
+
+flag threaded
+    Default: False
+
+library
+    build-depends: Cabal,
+                   base -any, haskeline -any, random -any, bytestring -any, parsec -any
+
+    if flag(threaded)
+        buildable: True
+        ghc-options: -threaded
+    buildable: True
+    hs-source-dirs: src
+    other-modules: Core
+
+

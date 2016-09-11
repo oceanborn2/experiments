@@ -2,7 +2,7 @@ module Functions where
 
 import Data.Char
 
-export isOdd isEven positive negative digits digitsum mymax mymin fib
+export isOdd isEven positive negative digits digitsum mymax mymin fib 
 
 -- is integer i odd?
 isOdd::Integral->Bool
@@ -41,25 +41,6 @@ fib 0 = 1
 fib 1 = 1
 fib n = fib(n-1)+fib(n-2)
 
-
-
-
-{-mysum::[Int]->MayBe Int
-mysum i = case i of
-    match [] => Nothing
-    [xs] => xs
-    [xs:x] => foldl 0 xs+mysum(x)
-
--}
-
---mymin::[Int]->Int
---mymin [x, y] = mymin x y
-
---ackerman::Int->Int->Int
---ackerman n m | m==0 = n+1
---ackerman n m | n== 0 && m>0 = ackerman(m-1,1)
---ackerman n m | m>0   && n>0 = ackerman(m-1,ackerman(m,n-1))
-
 sumFrom1ToN::Integral->Integral
 sumFrom1ToN n | n < 1 = sumFrom1ToN(-n)
 sumFrom1ToN n | otherwise = n * (n + 1) `div` 2
@@ -80,6 +61,39 @@ fact::Integral->Integral
 fact 0 = 1
 fact n = n * fact(n-1)
 
+prime:Int- >Bool
+prime n | n < 0 = prime(-n)
+prime n | n < 4 = Just True
+prime n | otherwise =
+    let dig = digits(n),
+        l=length(dig),
+        lastDig =dig[l]
+
+    let isOdd = digitSum(n)=3
+        | Math.sqrt(n)
+prime n | n >= 0 and n < 4  = Just True
+prime n | n
+prime n | otherwise = Just False
+
+
+{-mysum::[Int]->MayBe Int
+mysum i = case i of
+    match [] => Nothing
+    [xs] => xs
+    [xs:x] => foldl 0 xs+mysum(x)
+
+-}
+
+--mymin::[Int]->Int
+--mymin [x, y] = mymin x y
+
+--ackerman::Int->Int->Int
+--ackerman n m | m==0 = n+1
+--ackerman n m | n== 0 && m>0 = ackerman(m-1,1)
+--ackerman n m | m>0   && n>0 = ackerman(m-1,ackerman(m,n-1))
+
+
+
 {-product(x:xs)=
 when
   case [] : 1
@@ -91,11 +105,8 @@ when
 --kaprekar x = x * x
 
 
-divides::Integral->Integral->Bool
-divides a b =
-    a * b = round(a/b)*b
-
-
+--divides::Integral->Integral->Bool
+--divides a b = a `mod` b > 0
 
 {-
 
@@ -127,3 +138,4 @@ return x;
 }
 
 -}
+
