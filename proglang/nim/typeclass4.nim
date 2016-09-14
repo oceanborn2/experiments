@@ -12,5 +12,3 @@ type Uniform*[T: BoundedGenerator] = object
   gen: T
   min_p: float
   max_p: float
-
-  
