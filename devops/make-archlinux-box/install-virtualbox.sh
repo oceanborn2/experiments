@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-FQDN='devnode.valtech.com'
+FQDN='dev.munerot.net'
 KEYMAP='fr'
 LANGUAGE='fr_FR.UTF-8'
 PASSWORD=$(/usr/bin/openssl passwd -crypt 'vagrant')

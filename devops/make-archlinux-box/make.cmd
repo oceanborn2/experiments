@@ -40,9 +40,10 @@ REM http://www.tswartz.net/blog/how-to-install-packer-the-archlinux-aur-helper
 REM http://phollow.fr/2010/02/le-wrapper-pacman-et-aur-parfait-sur-arch-linux/
 REM https://github.com/elasticdog/packer-arch
 
-set PACKER=D:\software\VagrantPacker
+set PACKER=D:\software\packer
 
-%PACKER%\packer.exe build -only=virtualbox-iso arch-template.json
+rem %PACKER%\packer.exe build -only=virtualbox-iso arch-template.json
+%PACKER%\packer.exe build -only=vmware-iso arch-template.json
 rem %PACKER%\packer.exe validate -only=virtualbox-iso arch-template.json
 rem %PACKER%\packer.exe inspect arch-template.json
 rem %PACKER%\packer.exe fix arch-template.json

@@ -9,3 +9,4 @@
 /proglang/haskell/.cabal-sandbox/logs/*.log
 /proglang/haskell/.cabal-sandbox/packages/*.cache
 /proglang/julia/doc
+/proglang/haskell/mathmagic/dist

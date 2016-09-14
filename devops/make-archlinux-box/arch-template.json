@@ -1,7 +1,7 @@
 {
   "variables": {
-    "iso_url": "file:///d:/STORE/isos/archlinux-2014.11.01-dual.iso",
-    "iso_checksum": "a140bb9d182d2c5260132fe4ab68a5d438b16671",
+    "iso_url": "file:///d:/STORE/isos/archlinux-2016.09.03-dual.iso",
+    "iso_checksum": "bcec1d7c69f9c4200f34408e1af84bc3118801ff",
     "iso_checksum_type": "sha1"
   },
   "builders": [
@@ -14,6 +14,7 @@
       "guest_additions_mode": "disable",
       "http_directory": ".",
       "boot_wait": "5s",
+      "guest_os_type": "Other Linux 3.x kernel 64-bit",
       "boot_command": [
         "<enter><wait10><wait10>",
         "/usr/bin/curl -O http://{{.HTTPIP}}:{{.HTTPPort}}/install-virtualbox.sh<enter><wait5>",
@@ -22,7 +23,7 @@
         "/usr/bin/curl -O http://{{.HTTPIP}}:{{.HTTPPort}}/setproxy.sh<enter><wait5>",
         "/usr/bin/bash ./install-virtualbox.sh<enter>"
       ],
-      "disk_size": 23000,
+      "disk_size": 26000,
       "hard_drive_interface": "sata",
       "ssh_wait_timeout": "15m",
       "ssh_username": "root",
@@ -36,6 +37,7 @@
       "iso_checksum_type": "{{user `iso_checksum_type`}}",
       "http_directory": ".",
       "boot_wait": "5s",
+      "guest_os_type": "Other Linux 3.x kernel 64-bit",
       "boot_command": [
         "<enter><wait10><wait10>",
         "/usr/bin/curl -O http://{{.HTTPIP}}:{{.HTTPPort}}/install-vmware.sh<enter><wait5>",
@@ -44,7 +46,7 @@
         "/usr/bin/curl -O http://{{.HTTPIP}}:{{.HTTPPort}}/setproxy.sh<enter><wait5>",
         "/usr/bin/bash ./install-vmware.sh<enter>"
       ],
-      "disk_size": 23000,
+      "disk_size": 26000,
       "ssh_wait_timeout": "15m",
       "ssh_username": "root",
       "ssh_password": "vagrant",
