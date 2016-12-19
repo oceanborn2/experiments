@@ -1,14 +1,14 @@
 Version of workspace file format:
                2
 Time of storage:
-               ""
+               "Fri Sep 23 23:41:56 Paris, Madrid (heure d\198\218t\218) 2016"
 Name of the workspace:
                "workspace"
 File paths of contained packages:
-               []
+               ["mathmagic\\mathmagic.cabal"]
 Maybe file path of an active package:
-               Nothing
+               Just "mathmagic\\mathmagic.cabal"
 Maybe name of an active executable:
-               Nothing
+               Just "mathmagic"
 Version Control System configurations for packages:
                fromList []

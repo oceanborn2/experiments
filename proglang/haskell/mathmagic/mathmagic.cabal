@@ -7,17 +7,17 @@ license-file: LICENSE
 maintainer: pascal.munerot@gmail.com
 synopsis: mathemagic functions
 description: An experimental REPL program whose purpose is to explore arithmetic, especially with non conventional methods such as the Vedic and Trachtenberg systems and compare them to classic arithmetic.
-             .
+
 category: Math
 author: Pascal Munerot
 data-dir: ""
 
-local-repo: D:\GitHub\experiments\proglang\haskell\.cabal-sandbox\packages
-logs-dir: D:\GitHub\experiments\proglang\haskell\.cabal-sandbox\logs
-world-file: D:\GitHub\experiments\proglang\haskell\.cabal-sandbox\world
-user-install: False
-package-db: D:\GitHub\experiments\proglang\haskell\.cabal-sandbox\x86_64-windows-ghc-7.8.3-packages.conf.d
-build-summary: D:\GitHub\experiments\proglang\haskell\.cabal-sandbox\logs\build.log
+--local-repo: D:\GitHub\experiments\proglang\haskell\.cabal-sandbox\packages
+--logs-dir: D:\GitHub\experiments\proglang\haskell\.cabal-sandbox\logs
+--world-file: D:\GitHub\experiments\proglang\haskell\.cabal-sandbox\world
+--user-install: False
+--package-db: D:\GitHub\experiments\proglang\haskell\.cabal-sandbox\x86_64-windows-ghc-7.8.3-packages.conf.d
+--build-summary: D:\GitHub\experiments\proglang\haskell\.cabal-sandbox\logs\build.log
 
 executable mathmagic
 --    build-depends: base >=4.7 && <=4.8, haskeline -any, random -any
@@ -28,3 +28,12 @@ executable mathmagic
     hs-source-dirs: src
 
 
+--tasty-hunit, tasty-quickcheck, tasty-smallcheck
+
+testsuite Tasty
+    build-depends: base -any, haskeline -any, random -any, tasty
+    main-is: Test.hs
+    buildable: True
+    default-language: Haskell2010
+--    hs-source-dirs: test
+    hs-tests-dirs: tests

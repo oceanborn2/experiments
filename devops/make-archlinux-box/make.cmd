@@ -42,8 +42,8 @@ REM https://github.com/elasticdog/packer-arch
 
 set PACKER=D:\software\packer
 
-rem %PACKER%\packer.exe build -only=virtualbox-iso arch-template.json
-%PACKER%\packer.exe build -only=vmware-iso arch-template.json
+%PACKER%\packer.exe build -only=virtualbox-iso arch-template.json
+rem %PACKER%\packer.exe build -only=vmware-iso arch-template.json
 rem %PACKER%\packer.exe validate -only=virtualbox-iso arch-template.json
 rem %PACKER%\packer.exe inspect arch-template.json
 rem %PACKER%\packer.exe fix arch-template.json

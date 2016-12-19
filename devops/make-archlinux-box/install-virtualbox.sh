@@ -31,8 +31,8 @@ echo "==> Partitioning the disk with required partitions"
 /usr/bin/sgdisk -og ${DISK}                                              # Initialize partitioning
 /usr/bin/sgdisk -n 1:2048:206847         -c 1:"Boot" -t 1:ef01  ${DISK}  # Boot partition with MBR scheme
 /usr/bin/sgdisk -n 2:206848:2304000      -c 2:"Swap" -t 2:8200  ${DISK}	 # Swap partition
-/usr/bin/sgdisk -n 3:2304001:44247041    -c 3:"Root" -t 3:8300  ${DISK}  # Linux root filesystem
-/usr/bin/sgdisk -n 4:44247042:$ENDSECTOR -c 4:"Var"  -t 4:8300  ${DISK}  # Linux var filesystem
+/usr/bin/sgdisk -n 3:2304001:52635649    -c 3:"Root" -t 3:8300  ${DISK}  # Linux root filesystem
+/usr/bin/sgdisk -n 4:52635650:$ENDSECTOR -c 4:"Var"  -t 4:8300  ${DISK}  # Linux var filesystem
 
 echo "==> printing the partitioning"
 /usr/bin/sgdisk -p $1
@@ -57,12 +57,13 @@ echo "==> printing MTAB"
 cat /etc/mtab
 echo "==> printed MTAB"
 
+#PROXYADR=localhost
 #PROXYADR=192.168.1.12
-PROXYADR=10.61.3.151
+#PROXYADR=10.61.3.151
 #ping -n 3 ${PROXYADR}
 
-chmod +x ./setproxy.sh
-. ./setproxy.sh
+#chmod +x ./setproxy.sh
+#. ./setproxy.sh
 
 echo '==> bootstrapping the base installation'
 /usr/bin/loadkeys fr

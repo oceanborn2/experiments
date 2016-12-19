@@ -1,13 +1,10 @@
-module Functions (isOdd, isEven, positive, negative, digits, digitsum, mymax, mymin, fib) where
+module Functions (isOdd, isEven, positive, negative, digits, digitsum, mymax, mymin, fib, myproduct, myproduct2) where
 
 import Data.Char
 
 -- is integer i odd?
-isOdd::Integer->Bool  -- Integral x =>Bool
+isOdd::Integral x=>Integer->Bool  --  =>Bool
 isOdd i =  i  `mod` 2 /= 0
-
-isOdd2::Integer->Bool
-isOdd2 i = i `mod` 2 /=0
 
 -- is integer i even?
 isEven::Integer->Bool
@@ -55,12 +52,25 @@ myabs2::Integer->Integer
 myabs2 n = if n > 0 then n else -n
 
 
-double::Integer->Integer
-double x = 2 * x
+doubleMe::Integer->Integer
+doubleMe x = 2 * x
 
 fact::Integer->Integer
 fact 0 = 1
 fact n = n * fact(n-1)
+
+myproduct::Num x=>[x]->x
+myproduct []=1
+myproduct (x:xs)=x * myproduct xs
+
+--product.hs - http://stackoverflow.com/questions/23365825/haskell-product-of-list
+-- multiply range from i to f
+myproduct2::Integral x=>x->x->x
+myproduct2 i f = foldl (*) 1 [i..f]
+
+-- Happy Learn p66
+productOfIntegers :: [Integer] -> Integer
+productOfIntegers xs = foldr (*) 1 xs
 
 {-prime::Int->Bool
 prime n | n < 0 = prime(-n)

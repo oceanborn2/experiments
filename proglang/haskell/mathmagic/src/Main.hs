@@ -1,4 +1,5 @@
-import Core, Functions
+import Core
+import Functions
 import System.Console.Haskeline
 import System.Random
 import Data.List
@@ -9,8 +10,5 @@ header = do
     putStrLn "GNU 3.0 Licence (TODO)"
     putStrLn ""
 
-
-
 main::IO()
-main = do
-    header
+main = header

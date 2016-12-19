@@ -1,19 +1,30 @@
 module Core where
 
--- enumeration of arithmetic systems
+-- Arithmetic system
+data ArithSystem = Classic | Vedic | Trachtenberg deriving Show
 
-data Algo = name::Str
-	
-data ARITH_SYSTEMS = CLASSIC | VEDIC | TRACHTENBERG
+-- Algorithm description
+data Algo = Algo {
+    name::String,
+    arithSys::ArithSystem
+} deriving Show
 
 -- supported operators
-data Operator = PLUS | MINUS | MULTIPLY | DIVIDE
+data Operator = PLUS | MINUS | MULTIPLY | DIVIDE deriving Show
+--data Operator = '+' | '-' | '*' | '/'
+
+-- Arithmetic problem description
+data Problem = Problem {
+  op1,op2::Integer,
+  oper::Operator
+} deriving Show
 
 
-data Expression =
-    Num op |
-    Num op1 Operator op Num op2
 
+    
+
+
+--data Expression = Expression op::Num |   op1::Num Operator Num op2
 
 
 
