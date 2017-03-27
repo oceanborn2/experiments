@@ -1,30 +1,43 @@
 module Core where
 
 -- Arithmetic system
-data ArithSystem = Classic | Vedic | Trachtenberg deriving Show
+data ArithSystem = Classic | Vedic | Trachtenberg deriving (Eq, Ord, Show)
 
 -- Algorithm description
 data Algo = Algo {
-    name::String,
-    arithSys::ArithSystem
-} deriving Show
+    algName::String,
+    algArit::ArithSystem
+}  deriving (Eq, Ord, Show)
 
 -- supported operators
-data Operator = PLUS | MINUS | MULTIPLY | DIVIDE deriving Show
+data Operator = PLUS | MINUS | MULTIPLY | DIVIDE  deriving (Eq, Ord, Show)
 --data Operator = '+' | '-' | '*' | '/'
+
+-- Expression
+--data Number = Number Int
+data Expression = 
+    Number Int | 
+    Add Expression Expression |
+    Subtract Expression Expression |
+    Multiply Expression Expression |
+    Divide Expression Expression deriving (Eq, Ord, Show)
 
 -- Arithmetic problem description
 data Problem = Problem {
-  op1,op2::Integer,
-  oper::Operator
-} deriving Show
+    pbText:: String,
+    pbComment::String,
+    pbExpr:: Expression
+} deriving (Eq, Ord, Show)
+
+-- Solution to an arithmetic problem
+data Solution = Solution {
+    solArit:: ArithSystem
+}  deriving (Eq, Ord, Show)
 
 
-
-    
-
-
---data Expression = Expression op::Num |   op1::Num Operator Num op2
-
-
-
+calculate::Expression->Int
+calculate (Number n) = n
+calculate (Add x y) = calculate (x) + calculate(y)
+calculate (Subtract x y) = calculate (x) - calculate(y)
+calculate (Multiply x y) = calculate (x) * calculate(y)
+calculate (Divide x y) = calculate (x) `div` calculate(y)
