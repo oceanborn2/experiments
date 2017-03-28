@@ -4,6 +4,7 @@ import System.Console.Haskeline
 import System.Random
 import Data.List
 
+
 header = do
     putStrLn "MathMagic shell"
     putStrLn "A REPL calculator for non conventional arithmetic (vedic, trachtenberg, ...)"
@@ -11,4 +12,6 @@ header = do
     putStrLn ""
 
 main::IO()
-main = header
+main = do
+    header
+    putStrLn fromInteger $ calculate(Add (Number 1) (Subtract (Number 10) (Number 3)))

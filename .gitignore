@@ -1,4 +1,4 @@
-﻿nimcache/
+nimcache/
 /devops/docs/présentations
 /proglang/nim/macros/nimcache
 /proglang/nim/nimcache
@@ -12,3 +12,9 @@
 /proglang/haskell/.cabal-sandbox/packages/*.cache
 /proglang/julia/doc
 /proglang/haskell/mathmagic/dist
+*.hi
+*.o
+*.hs~
+*.exe
+/proglang/haskell/accountnumber/dist
+*.cache
