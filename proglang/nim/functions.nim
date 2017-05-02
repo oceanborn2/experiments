@@ -32,35 +32,49 @@ proc myCombinations*(n:int, k:int):int=
   let den = myFact(n-k)*myFact(k) #TODO:Optimize
   result = myFact(n) div den
 
-proc mySqrt*(n:int)=
-  const delta=0.001
-  var rac=n
+proc mySqrt*(n:float64):float64=
+  #const delta=0.001
+  #var rac=n
+  #todo
+  discard
 
-proc mySumOfInt*(n:int):int=
+proc mySumOfOneToN*(n:uint):uint=
   n*(n+1) div 2
 
-proc digits*(n:uint64):(seq[uint8],uint64,int,uint8) =
+proc intsum*(ld:seq[uint]):uint =
+  result = 0
+  for dig in ld:
+    result += dig
+
+proc digits*(n:uint):(seq[uint],uint,uint,uint) =
   let dstr = $n
   let dl = len(dstr)
-  var sm= 0'u64 # or var sm:uint64=0
-  var ds : seq[uint8] = @[]
-  var ld = uint8(ord(dstr[dl-1])-48)
+  var sm= uint(0)
+  var ds : seq[uint] = @[]
+  var ld = uint(ord(dstr[dl-1])-48)
   for d in dstr:
-    let v = uint8(ord(d)-48)
+    let v = uint(ord(d)-48)
     ds.add(v)
-    sm += uint64(v)
+    sm += uint(v)
     #ld = v
 
-  echo ("digits: " & $n & "> " & $sm & "," & $dl & ", " & $ld)
+  echo("digits: " & $n & "> " & $sm & "," & $dl & ", " & $ld)
   result = (ds, sm, dl, ld)
 
+proc digitsum*(n:uint):uint =
+  let sd = digits(n)[0]
+  var dsum = intsum(sd)
+  while dsum>9:
+    dsum = digitsum(dsum)
+  result = dsum
+
 #const lastDigitsNotPrime:IntSet = initIntSet()
-const Nine = 9'u64
-const One = 1'u64
-const Ten = 10'u64
+#const Nine = uint(9) #  'u64
+#const One = 1'u64
+const Ten = uint(10)
 
 
-proc myPrime*(n:uint64, silent:bool = false):bool =
+proc myPrime*(n:uint, silent:bool = false):bool =
   let (ds, sm, dl, ld) = digits(n)
   if not silent:
     # ds = list of digits
@@ -94,12 +108,12 @@ proc myPrime*(n:uint64, silent:bool = false):bool =
       if dsm == Nine:
         return false
 
-    var halfOfN = uint64(round(sqrt(float64(n)))+1)
+    var halfOfN = uint(round(sqrt(float64(n)))+1)
     echo "half:" & $halfOfN
-    var i=10'u64 # all digits lesser than 10 have been tested already (with dl==1)
+    var i=Ten # all digits lesser than 10 have been tested already (with dl==1)
     while i<halfOfN:
       echo "i:" & $i
-      var rm = n # Nim does net yet have uint64 mod operations
+      var rm = n # Nim does net yet have uint mod operations
       while rm >= i:
         rm = rm - i
         echo "dec:" & $(rm+i) & " => " & $rm
@@ -112,15 +126,35 @@ proc myPrime*(n:uint64, silent:bool = false):bool =
     # If we arrive here, then the number is prime
     return true
 
-proc testAPrime*(n:uint64, expected: bool, silent:bool=false) =
+proc testAPrime*(n:uint, expected: bool, silent:bool=false) =
   let boolRes = myPrime(n, silent)
   check(boolRes == expected)
   if not silent: echo "testing : " & $n & " => " $expected
 
+proc luhn*(n:uint) =
+  let dig = digits(n)
+  var sumx = 0
+  var even = true
+  for adig in dig.items():
+    if even:
+      var tw = 2*adig
+      if tw>9:
+        tw = digitsum(tw)
+      sumx += tw
+    else:
+      sumx += adig
+
+
+  let ldig = dig.len
+  var sum = 0
+
+
+
+
 suite "digits sums & primality tests":
 
   test "digits extraction":
-    #var s=newSeq[uint8][1,2,9,4]
+    #var s=newSeq[uint][1,2,9,4]
     echo (digits(1294)) #==(@[1'u8,2'u8,9'u8,4'u8])))
 
   test "primes":
@@ -140,13 +174,13 @@ suite "digits sums & primality tests":
     testAPrime(13'u64, true,  silent=true)
     testAPrime(17'u64, true,  silent=true) """
 
-    testAPrime(21'u64, false, silent=true)
+    testAPrime(uint(21), false, silent=true)
 
     discard """
 
 
     for i in countup(2000, 2200, 2):
-      testAPrime(uint64(i), false,silent=true)
+      testAPrime(uint(i), false,silent=true)
  """
 
 
