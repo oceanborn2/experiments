@@ -1,7 +1,11 @@
+# v1.2.0 OK
+
 using JavaCall
+import Pkg
+import Pkg.Pkg2 # workaround as Pkg3 does not have Pkg.dir()
 
 
-JavaCall.init(["-Xmx512M", "-Djava.class.path=$(joinpath(Pkg.dir(), "JavaCall", "test"))", "-verbose:jni", "-verbose:gc"])
+JavaCall.init(["-Xmx512M", "-Djava.class.path=$(joinpath(Pkg2.dir(), "JavaCall", "test"))", "-verbose:jni", "-verbose:gc"])
 
 jlm = @jimport java.lang.Math
 #JavaObject{:java.lang.Math} (constructor with 2 methods))

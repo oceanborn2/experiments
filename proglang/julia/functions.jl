@@ -1,4 +1,6 @@
-const ϕ = golden
+using Distributed
+
+#const ϕ = golden
 
 function square(x::Number)
   x * x
@@ -16,14 +18,14 @@ function fib(n::Integer)
     end
   end
 
-@time begin
+@elapsed begin
   for i=1:40
     fib(i)
   end
 end
 
 let x::Int128=0
-@time begin
+@elapsed begin
   for i=1:1000*1000
       inverse(2)
       inverse(3.14)

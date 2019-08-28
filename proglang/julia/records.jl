@@ -1,28 +1,29 @@
-abstract Point
+abstract type Point end
 
-function showPoint(p::Point)
-    println("x:", p.x, " y", p.y)
-end
-
-immutable Point2D <: Point
+struct Point2D <: Point
   x::Float64
   y::Float64
 end
 
-immutable Point3D <: Point
+struct Point3D <: Point
   x::Float64
   y::Float64
   z::Float64
 end
 
-abstract Shape
-abstract Line    <: Shape
-abstract Polygon <: Shape
-abstract Square  <: Polygon
 
-typealias Str AbstractString
+function showPoint(p::Point)
+    println("x:", p.x, " y", p.y)
+end
 
-type NamedObject
+abstract type Shape end
+abstract Line <: Shape  end
+abstract Polygon <: Shape end
+abstract Square <: Polygon end
+
+const Str = AbstractString
+
+struct NamedObject
   id::Str
   name::Str
 end

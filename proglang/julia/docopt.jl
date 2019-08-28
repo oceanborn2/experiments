@@ -1,5 +1,6 @@
-using DocOpt
+# v1.2.0 OK
 
+using DocOpt
 
 doc = """Naval Fate.
 

@@ -1,9 +1,10 @@
-using Base.Test
+using Distributed
+using Test
 
 # naive crypto algos implementation
 
 # Diffie Hellman authentication scheme
-function authDH(a,b,g,p::BigInt)
+function authDH(a, b, g, p::BigInt)
     ga = g^a
     gb = g^b
     gab = mod(ga^b, p)
@@ -12,67 +13,67 @@ function authDH(a,b,g,p::BigInt)
 end
 
 # Modular exponentiation
-function modExp(v,n,p::BigInt)
-	local nc = n
-	local mult::BigInt=1
-	while (nc>0)
-		mult = mod(mult*v,p)
-		dec(nc)
-	end
-	mult
+function modExp(v, n, p::BigInt)
+    local nc = n
+    local mult::BigInt = 1
+    while (nc > 0)
+        mult = mod(mult*v,p)
+        nc -= 1 # dec(nc)
+    end
+    println(mult)
+    mult
 end
 
-function modExpTest()
-	modExp(17,13,7)
+function modExpTest()::BigInt
+    res = modExp(
+        BigInt(17),
+        BigInt(13),
+        BigInt(7))
+    return res
 end
-
 
 function authDHTest()
-	let 
-		a=BigInt(1211) 
-		b=BigInt(461)
-		
-		# g and p are chosen randomly with the constraint that they are mutually prime
-		g=BigInt(327)
-		p=BigInt(15485993)
+    let
+        a = BigInt(1211)
+        b = BigInt(461)
 
-		(gab, gba, a1, b1, ga, gb) = authDH(a, b, g, p)
+        # g and p are chosen randomly with the constraint that they are mutually prime
+        g = BigInt(327)
+        p = BigInt(15485993)
+        (gab, gba, a1, b1, ga, gb) = authDH(a,b,g,p)
+        println("a=", a)
+        println("b=", b)
+        println("g=", g)
+        println("g^a=", ga)
+        println("g^b=", gb)
+    #	gap = mod(ga, p)
+    #	println("gap = ", gap)
 
-		println("a=", a)
-		println("b=", b)
-		println("g=", g)
+    #	gbp = mod(gb, p)
+    #	println("gbp = ", gbp)
 
-		println("g^a=", ga)
-		println("")
-		println("g^b=", gb)
-		println("")
-		println("")
+        println("gab:", gab)
+        println("gba:", gba)
+	    println("")
+        println("")
 
-	#	gap = mod(ga, p)
-	#	println("gap = ", gap)
+        local nheads = @elapsed @distributed  (+)  for i=1:100
+            1
+        end
 
-	#	gbp = mod(gb, p)
-	#	println("gbp = ", gbp)
-		
-		println("gab:", gab)
-		println("gba:", gba)
+        # println("nheads1:", nheads)
 
-		nheads=@time @parallel (+)  for i=1:100
-		 	1	  
-		end
-		# println("nheads1:", nheads)
-
-		nheads=@time @parallel (+) for i=1:100
-			(gab, gba, a2, b2, ga, gb) = authDH(a,b,g,p)	  
-			if (gab == gba)
-				1
-			else
-				0
-			end
-		end
-	end
+        local nheadsp = @elapsed @distributed (+) for i=1:100
+            (gab, gba, a2, b2, ga, gb) = authDH(a,b,g,p)
+            if (gab == gba)
+                1
+            else
+                0
+            end
+        end
+    end
+	@assert nheads == nheadsp
 end
 
-# @test authDHTest()
-
-modExpTest()
+#@test authDHTest()
+@test modExpTest()

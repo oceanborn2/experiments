@@ -2,10 +2,10 @@
 
 # broken test? lib?
 
-using Base.Test
+using Test
 using Clockwork
 
-type CompletedTask
+struct CompletedTask
     duration::AbstractString
     clock::Clock
     function CompletedTask(dur::AbstractString) 

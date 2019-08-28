@@ -1,6 +1,8 @@
 # initial sample from https://github.com/dcjones/Compose.jl
 
 using Compose
+using Test
+
 
 # broken
 
@@ -17,8 +19,11 @@ function sierpinski(n)
 end
 
 function squareroot(n)
-    if (n>0) 
-        t =  sqrt([1:n])
+    if (n>0)
+        na = [i for i in 1:n] # 1.0:n to get floats - former code was based on integers
+        println(na)
+        println("type: ", typeof(na))
+        t =  [sqrt(i) for i in 1:n] #sqrt(na)
         println(t)
         compose(context(), text(1,1,"*"), t)
     end
