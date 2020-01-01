@@ -1,0 +1,51 @@
+
+# Typical KAL and Glory XFS tree layout
+
+.Arborescence ATMDIR (Glory XFS)
+[tree]
+--
+ATMDIR
+|-- BIN
+|   |-- DLL
+|   |   |-- *.exe
+|   |   |-- *.dll
+|   |   `-- other
+|   |-- SERVERS
+|   |   |-- *.exe
+|   |   |-- *.dll
+|   |   `-- some
+|   |-- service
+|   |   |-- LogBackup
+|   |   `-- PDSLService
+|   |-- TEST
+|   |   |-- ActiveXFS
+|   |   |-- Sys14
+|   |   |-- Utils
+|   |   |-- XFS
+|   |   |   |-- GetLogs
+|   |   |   |-- LogBackup
+|   |   |   |-- PWCConfig
+|   |   |   `-- TiConfig
+|   |-- XFS2
+|   |   `-- *.dll
+|   |-- XFS3
+|   |   `-- *.dll
+|-- data
+|   |   |-- *.ini
+|   |   |-- *.xml
+|   |   |-- *.ini
+|   |   `-- someother
+|-- error
+|   |-- - DEBUG.LOG
+|   |-- - dlrxfstrace.LOG
+|   `--
+|-- forms
+|-- mib
+|-- photo
+|-- Picture
+|-- SDK
+|   |-- docs
+|   `-- Inc
+|--     `-- - *.h
+`-- tmp
+--

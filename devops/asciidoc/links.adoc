@@ -1,0 +1,11 @@
+= Diagram layout and generation tools
+
+* http://gojs.net/latest[Go JS (commercial)]
+* http://www.planttext.com/planttext[PlanText online editor for PlantUML]
+* https://www.mediawiki.org/w/index.php?title=Special:Book&bookcmd=book_creator&referer=Manual%3AContents[MediaWiki]
+
+= A sample large image
+
+image:out/grouping-components.png[large image]
+
+image:out/grouping-components.png[large image]
