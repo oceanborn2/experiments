@@ -15,7 +15,7 @@
     <inceptionYear>2015</inceptionYear>
     <properties>
         <gremlin.version>2.6.0</gremlin.version>
-        <groovy.version>2.4.4</groovy.version>
+        <groovy.version>2.4.21</groovy.version>
         <junit.version>4.5</junit.version>
         <jaxb.version>2.2.11</jaxb.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
