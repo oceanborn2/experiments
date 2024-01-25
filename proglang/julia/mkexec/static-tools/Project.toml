@@ -1,0 +1,8 @@
+name = "mkexec"
+uuid = "d572e448-c650-400c-a307-561485018eff"
+authors = ["Pascal Munerot <pascal.munerot@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+StaticCompiler = "81625895-6c0f-48fc-b932-11a18313743c"
+StaticTools = "86c06d3c-3f03-46de-9781-57580aa96d0a"

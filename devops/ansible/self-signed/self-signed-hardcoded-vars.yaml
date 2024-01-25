@@ -1,0 +1,22 @@
+---
+- name: Create certs folder
+  file:
+    path: certs
+    state: directory
+
+- name: Generate private key.
+  openssl_privatekey:
+    path: certs/privkey.pem
+
+- name: Generate CSR.
+  openssl_csr:
+    path: certs/example.csr
+    privatekey_path: certs/privkey.pem
+    common_name: "CN=example.com"
+
+- name: Generate a Self Signed OpenSSL certificate.
+  openssl_certificate:
+    path: certs/fullchain.pem
+    privatekey_path: certs/privkey.pem
+    csr_path: certs/example.csr
+    provider: selfsigned

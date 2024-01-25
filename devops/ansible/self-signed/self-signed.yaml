@@ -1,0 +1,33 @@
+---
+vars:
+  - certificate_dir: etc
+  - server_hostname: server
+
+tasks:
+- name: Ensure directory exists for local self-signed TLS certs.
+  file:
+    path: "{{ certificate_dir }}/{{ server_hostname }}"
+    state: directory
+
+- name: Generate an OpenSSL private key.
+  openssl_privatekey:
+    path: "{{ certificate_dir }}/{{ server_hostname }}/privkey.pem"
+
+- name: Generate an OpenSSL CSR.
+  openssl_csr:
+    path: "{{ certificate_dir }}/{{ server_hostname }}.csr"
+    privatekey_path: "{{ certificate_dir }}/{{ server_hostname }}/privkey.pem"
+    common_name: "{{ server_hostname }}"
+
+- name: Generate a Self Signed OpenSSL certificate.
+  openssl_certificate:
+    path: "{{ certificate_dir }}/{{ server_hostname }}/fullchain.pem"
+    privatekey_path: "{{ certificate_dir }}/{{ server_hostname }}/privkey.pem"
+    csr_path: "{{ certificate_dir }}/{{ server_hostname }}.csr"
+    provider: selfsigned
+    
+# - name: Create simple self-signed certificate
+#   community.crypto.x509_certificate:
+#     path: self-signed.pem
+#     privatekey_path: self-signed.key
+#     provider: selfsigned
